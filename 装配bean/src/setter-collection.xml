@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collData" class="collection.CollData">
+        <property name="arrayData">
+            <array>
+                <!-- 普通数据 -->
+                <value>DS</value>
+                <value>DZD</value>
+                <value>NS</value>
+                <value>KB</value>
+            </array>
+        </property>
+        <property name="listData">
+            <list>
+                <value>DS</value>
+                <value>DZD</value>
+                <value>NS</value>
+                <value>KB</value>
+            </list>
+        </property>
+        <property name="setData">
+            <set>
+                <value>DS</value>
+                <value>DZD</value>
+                <value>NS</value>
+                <value>KB</value>
+            </set>
+        </property>
+        <property name="mapData">
+            <map>
+                <entry key="jack" value="杰克" />
+                <entry>
+                    <key><value>rose</value></key>
+                    <value>肉丝</value>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="高富帅">nao</prop>
+                <prop key="白富美">miao</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

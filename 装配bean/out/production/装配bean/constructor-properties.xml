@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="person" class="entity.Person" >
+        <!-- 构造器注入 -->
+        <constructor-arg index="0" value="李俊峡" />
+        <constructor-arg index="1" ref="homeAddr" />
+
+        <!-- setter 方法注入 -->
+        <property name="age"><value>18</value></property>
+        <property name="companyAddr"><ref bean="companyAddr" /></property>
+    </bean>
+
+    <bean id="homeAddr" class="entity.Address">
+        <property name="addr" value="山西省太原市杏花岭区" />
+        <property name="tel"><value>110</value></property>
+    </bean>
+
+    <bean id="companyAddr" class="entity.Address">
+        <property name="addr" value="山西省太原市尖草坪区" />
+        <property name="tel"><value>911</value></property>
+    </bean>
+
+</beans>

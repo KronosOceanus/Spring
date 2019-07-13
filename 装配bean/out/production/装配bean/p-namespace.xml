@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 第三行 p 命名空间 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="entity.Person"
+          p:name="李俊峡" p:age="18" p:homeAddr-ref="homeAddr" p:companyAddr-ref="companyAddr"/>
+
+    <bean id="homeAddr" class="entity.Address"
+          p:addr="山西省太原市杏花岭区" p:tel="110"/>
+    <bean id="companyAddr" class="entity.Address"
+          p:addr="山西省太原市尖草坪区" p:tel="911"/>
+</beans>

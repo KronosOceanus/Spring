@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <!-- 配置需要创建的对象，id用于用于从Spring中获取对象 -->
+    <bean id="userService" class="dao_service.UserServiceImpl" init-method="init" destroy-method="destory">
+        <!-- 依赖注入（setter方法设置成员变量）
+             name 是 entity 方法名
+             ref 是 xml 配置中 bean 的 id -->
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+    <bean id="userDao" class="dao_service.UserDaoImpl" />
+
+
+    <!-- 注册后处理 bean，执行该配置文件中所有 bean 的初始化前/销毁后方法 -->
+    <bean class="processor.MyBeanPostProcessor" />
+
+</beans>
