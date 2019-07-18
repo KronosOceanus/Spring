@@ -9,17 +9,19 @@ import java.lang.reflect.Proxy;
 
 public class MyBeanPostProcessor implements BeanPostProcessor {
 
-    //在所有的 bean 初始化前/销毁后执行
+    //在所有的 bean 初始化前后执行
     //要想匹配单个 bean，则使用 equals 方法判断
     @Override
     public Object postProcessBeforeInitialization(Object o, String s) throws BeansException {
-        System.out.println("前方法" + s);
+        System.out.println("初始化前方法" + s);
         return o;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object o, String s) throws BeansException {
-        System.out.println("后方法" + s);
+        System.out.println("初始化后方法" + s);
+        return o;
+        /**
         //生成代理并返回（真实对象引用消失，销毁）
         return Proxy.newProxyInstance(MyBeanPostProcessor.class.getClassLoader(),
                 o.getClass().getInterfaces(), new InvocationHandler() {
@@ -29,5 +31,6 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
                         return obj;
                     }
                 });
+         */
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- XML 文件配置 profile -->
+    <beans profile="dev">
+        <bean id="devDataSource" class="profile.DevDataSource">
+            <property name="key" value="key" />
+            <property name="value" value="dev" />
+        </bean>
+    </beans>
+
+
+    <beans profile="test">
+        <bean id="testDataSource" class="profile.TestDataSource">
+            <property name="key" value="key" />
+            <property name="value" value="test" />
+        </bean>
+    </beans>
+</beans>

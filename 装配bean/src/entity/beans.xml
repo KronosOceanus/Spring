@@ -16,7 +16,7 @@
     <bean id="userDao" class="dao_service.UserDaoImpl" />
 
 
-    <!-- 注册后处理 bean，执行该配置文件中所有 bean 的初始化前/销毁后方法 -->
+    <!-- 注册后处理 bean，执行该配置文件中所有 bean 的初始化前后方法 -->
     <bean class="processor.MyBeanPostProcessor" />
 
 </beans>

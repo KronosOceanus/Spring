@@ -10,11 +10,18 @@ public class StudentAction {
 
     @Value("蔡帅")
     private String name;
-    @Autowired @Qualifier("user")
-    private User user;
-    //自动选择类型
+
+    //直接在构造器使用注解注入
+    private final User user;
+    private final StudentService studentService;
+
+
+    //Ioc 容器自动寻找 bean，注解直接写在参数类型前
     @Autowired
-    private StudentService studentService;
+    public StudentAction(StudentService studentService, @Qualifier("user") User user) {
+        this.studentService = studentService;
+        this.user = user;
+    }
 
     public void execute(){
         System.out.println("execute!");
@@ -34,15 +41,7 @@ public class StudentAction {
         return user;
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     public StudentService getStudentService() {
         return studentService;
-    }
-
-    public void setStudentService(StudentService studentService) {
-        this.studentService = studentService;
     }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 1.创建目标类 -->
+    <bean id="userService" class="entity.UserServiceImpl" />
+    <!-- 2.创建切面类 -->
+    <bean id="factoryBeanAspect" class="factory_bean_proxy.FactoryBeanAspect" />
+    <!-- 3.创建代理类
+        使用工厂 bean，底层调用 getObject 方法，得到一个特殊的 bean
+        如下工厂 bean，用于生成代理对象 -->
+    <bean id="userServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!-- 真实对象实现的接口          全限定类名 -->
+        <property name="interfaces" value="entity.UserService" />
+        <!-- 真实对象               对象引用-->
+        <property name="target" ref="userService" />
+        <!-- 拦截器名称                      类型是 String[] -->
+        <property name="interceptorNames" value="factoryBeanAspect" />
+        <!-- 表示底层使用 cglib 代理（默认根据真实对象是否有接口选择底层代理方式） -->
+        <property name="optimize" value="true" />
+    </bean>
+
+</beans>

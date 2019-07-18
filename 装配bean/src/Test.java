@@ -1,28 +1,28 @@
+import annotation.AnnoConfig;
 import annotation.StudentAction;
 import collection.CollData;
+import condition.ConConfig;
+import condition.Human;
 import dao_service.UserService;
 import dao_service.UserServiceImpl;
+import life_cycle.Maker;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionReader;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import entity.Person;
+import properties.ProConfig;
+import properties.ProConfig2;
 
 public class Test {
 
-    private String xmlPath_1 = "beans.xml";
-    private String xmlPath_2 = "static-factory.xml";
-    private String xmlPath_3 = "class-factory.xml";
-    private String xmlPath_4 = "constructor-properties.xml";
-    private String xmlPath_5 = "p-namespace.xml";
-    private String xmlPath_6 = "setter-collection.xml";
-    private String xmlPath_7 = "anno-beans.xml";
-
+    private String xmlPath_1 = "entity/beans.xml";
 
     //ioc 和 di 测试
     private void test01(){
@@ -47,7 +47,8 @@ public class Test {
     }
     //静态工厂测试
     private void test03(){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath_2);
+        String xmlPath = "factory/static-factory.xml";
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath);
         //自动类型强转
         UserService userService = applicationContext.getBean(
                 "userService", UserService.class);
@@ -55,7 +56,8 @@ public class Test {
     }
     //实例工厂测试
     private void test04(){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath_3);
+        String xmlPath = "factory/class-factory.xml";
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath);
         //自动类型强转
         UserService userService = applicationContext.getBean(
                 "userService", UserService.class);
@@ -71,7 +73,7 @@ public class Test {
         userService2.addUser();
     }
     // init / destory（容器关闭执行） 方法测试
-    // 初始化前/销毁后方法测试
+    //初始化前后方法测试
     private void test06() throws Exception {
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath_1);
         UserService userService = applicationContext.getBean("userService", UserService.class);
@@ -86,54 +88,97 @@ public class Test {
         //直接使用子类，含有 close 方法
         applicationContext.close();
     }
-    // 构造器/ setter属性注入测试
+    //构造器/ setter属性注入测试
     private void test07(){
+        String xmlPath = "di/constructor-properties.xml";
         ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext(xmlPath_4);
+                new ClassPathXmlApplicationContext(xmlPath);
         Person p = applicationContext.getBean("person",Person.class);
 
         System.out.println(p);
     }
     // p 命名空间测试
     private void test08(){
+        String xmlPath = "di/p-namespace.xml";
         ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext(xmlPath_5);
+                new ClassPathXmlApplicationContext(xmlPath);
         Person p = applicationContext.getBean("person",Person.class);
 
         System.out.println(p);
     }
-    // 集合注入测试
+    //集合注入测试
     private void test09(){
+        String xmlPath = "collection/setter-collection.xml";
         ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext(xmlPath_6);
+                new ClassPathXmlApplicationContext(xmlPath);
         CollData collData = applicationContext.getBean("collData",CollData.class);
         System.out.println(collData);
     }
-    // 注解测试
+    //注解 XML扫描 测试
     private void test10(){
+        String xmlPath = "annotation/annotations.xml";
         ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext(xmlPath_7);
+                new ClassPathXmlApplicationContext(xmlPath);
         StudentAction studentAction = applicationContext.getBean("studentAction", StudentAction.class);
         studentAction.execute();
         System.out.println(studentAction.getName());
         studentAction.getUser().doSomething();
         studentAction.getStudentService().addStudent();
     }
+    //生命周期测试
+    private void test11(){
+        String xmlPath = "life_cycle/life-cycle.xml";
+        ClassPathXmlApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext(xmlPath);
+        Maker maker = applicationContext.getBean("maker",Maker.class);
+        maker.make();
+        //销毁 bean
+        applicationContext.close();
+    }
+    //注解实现类扫描测试
+    public void test12(){
+        ApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext(AnnoConfig.class);
+        StudentAction studentAction = applicationContext.getBean("studentAction", StudentAction.class);
+        studentAction.execute();
+        System.out.println(studentAction.getName());
+        studentAction.getUser().doSomething();
+        studentAction.getStudentService().addStudent();
+    }
+    //加载属性文件测试
+    private void test13(){
+        AnnotationConfigApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext(ProConfig.class);
+        String url = applicationContext.getEnvironment().getProperty("jdbc.url");
+        System.out.println(url);
 
+        applicationContext.register(ProConfig2.class);
+        String allConfig = applicationContext.getBean("allConfig",String.class);
+        System.out.println(allConfig);
+    }
+    // XML 加载属性文件测试
+    private void test14(){
+        String xmlPath = "properties/xml-config.xml";
+        String xmlPath2 = "properties/xml-config2.xml";
+        ClassPathXmlApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext(xmlPath);
+        String allConfig = applicationContext.getBean("allConfig",String.class);
+        System.out.println(allConfig);
+        System.out.println("=====================================");
+        applicationContext.setConfigLocation(xmlPath2);
+        allConfig = applicationContext.getBean("allConfig",String.class);
+        System.out.println(allConfig);
+    }
+    //条件化 bean 测试
+    private void test15(){
+        ApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext(ConConfig.class);
+        String humanName = applicationContext.getBean("humanName",String.class);
+        System.out.println(humanName);
+    }
 
     public static void main(String[] args) throws Exception {
         Test t = new Test();
-        /**
-        t.test01();
-        t.test02();
-        t.test03();
-        t.test04();
-        t.test05();
-        t.test06();
-        t.test08();
-        t.test09();
-        t.test10();
-         */
-        t.test07();
+        t.test15();
     }
 }

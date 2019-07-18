@@ -86,7 +86,7 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
 ```
 #### BeanPostProcessor 后处理 bean
 * Spring 工厂提供一个机制，只要实现此接口，并将实现类提供给 Spring 容器，Spring 
-    容器将自动执行，初始化前执行 before，…… after
+    容器将自动执行，初始化前执行 before，初始化后 after
 * Spring 提供工厂钩子，用于修改实例对象，可以生成代理对象，是 AOP 底层
     （钩子：这两方法需要传入一个 Object 对象，然后在方法中修改这个对象，再使用 jdk 
         动态代理返回代理，可以赋给原对象）
@@ -176,32 +176,166 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
 
 ## 注解装配 bean
 下面等价
-#### @Component("id")
+###### @Component("id")
 ```xml
     <bean id="id" class="">
 ```
-### web 开发的三个衍生注解（与 @Component 作用一样）
-##### @Repository：
+###### web 开发的三个衍生注解（与 @Component 作用一样）
+* @Repository：
 dao 层
-##### @Service：
+* @Service：
 service 层
-##### @Controller：
+* @Controller：
 web 层
 
-#### @Value("v")
+###### @Value("v")
 普通值注入
-#### @Autowired
+###### @Autowired
 引用值，按照类型注入
-#### @Autowired @Qualifier("name") / @Resource("name")
+###### @Autowired @Qualifier("name")
 按照名称注入
+###### @Autowired @Primary("name")
+优先使用该类注入
 
-#### @PostConstruct
+###### @PostConstruct
 初始化
-#### @PreDestory
+###### @PreDestory
 销毁
 
-#### @Scope("")
+###### @Scope()
+值为 ConfigurableBeanFactory 类的常量
 * prototype：多例（默认是单例）
+* session/request：会话/请求
+
+#### @Bean
+注解到方法之上，将返回值封装成一个 bean，有如下 4 个属性
+* name：beanName
+* autowire：该 bean 是否是引用对象
+* init / destoryMethod：初始化/销毁方法
+
+###### @Import
+在一个配置类中导入其他（多个）配置类
+
+
+## 扫描注解（两种方法）
+#### XML 文件扫描
+创建 ApplicaitonContext 时扫描该文件
+```xml
+<!-- 使用注解需要增加3条命名空间 -->
+    <!--
+        xmlns:context="http://www.springframework.org/schema/context"
+
+        //写在 xsi:schemaLocation 中，成对存在
+        http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+    -->
+
+    <!-- 组件扫描，扫描有注解的类       包名-->
+    <context:component-scan base-package="annotation" />
+```
+#### 配置类扫描
+创建 *AnnotationConfigApplicationContext*（ApplicationContext 的子类） 时传入该类（.class）
+```java
+    //扫描当前包下的 bean @ComponentScan
+    //扫描指定包（多个）
+    @ComponentScan(basePackages = {"annotation", "entity"})
+    public class ApplicationConfig {
+}
+```
+
+## 注解实现属性文件映射
+#### XML 实现
+属性类
+```java
+    /**
+     * 将属性文件与成员变量建立映射
+     */
+    @Component
+    public class DatabaseConfig {
+    
+        //属性 key
+        @Value("${jdbc.driver}")
+        private String driver = null;
+        @Value("${jdbc.url}")
+        private String url = null;
+        @Value("${jdbc.user}")
+        private String user = null;
+        @Value("${jdbc.pass}"human      private String pass =humanl;
+    
+        @Bean(name = "allConfig")
+        public String getAll(){
+            return driver + "\n" + url + "\n" + user + "\n" + pass;
+        }
+    }
+```
+XML 配置文件
+
+```xml
+    <context:comhumannt-scan base-package="properties" />
+
+    <!-- 相当于 PropertySource 注解，使 Spring 增加映射功能 -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <array>
+                <!-- 允许多个 value 配置多个属性文件 -->
+                <value>classpath:jdbc.properties</value>
+            </array>
+        </property>
+        <property name="ignoreResourceNotFound" value="true" />
+    </bean>
+```
+
+测试
+#### 配置类实现
+映射（配置）类（使 Spring 增加映射功能）
+
+```java
+    @ComponentScan(basePackages = "properties")
+    @PropertySource(value = "classpath:jdbc.properties",
+        ignoreResourceNotFound = true)
+    public class ProConfig2 {
+    
+    
+        //该包下的配置文件直接与类的成员变量关联
+        @Bean
+        public PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer(){
+            return new PropertySourcesPlaceholderConfigurer();
+        }
+    }
+```
+## 条件化装配 bean
+bean
+```java
+    //以 @Bean 注解定义的 bean（如下）
+    @Bean("humanName")
+    @Conditional(ConditionClass.class) //使用该注解指定判断条件类
+    public String getName() {
+        return name;
+    }
+```
+判断条件类
+```java
+    /**
+     * 根据条件装配 bean
+     * 如果装配失败会抛出异常
+     */
+    public class ConditionClass implements Condition {
+        @Override              //运行时环境                       //获得关于该 bean 的注解信息
+        public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata annotatedTypeMetadata) {
+            /**
+             * 如果 bean 是引用类型，可以通过以下方法获得 bean 的属性
+             * Environment env = conditionContext.getEnvironment();
+             * String prop = env.getProperty("propId");
+             */
+    
+            //是否创建 bean
+            return true;
+        }
+    }
+```
+然后创建 bean，则会判断条件再决定是否装配
+
+
 
 
 
