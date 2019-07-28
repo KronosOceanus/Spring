@@ -2,47 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4174ba-f10c-4ff0-9157-2a8f4581fd96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AOP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotation/AnnoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condition/ConConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condition/ConditionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condition/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/life_cycle/Maker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/life_cycle/life-cycle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/properties/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/properties/ProConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/properties/ProConfig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/properties/xml-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/properties/xml-config2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/AspectJAnnoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/AspectJXmlAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/aspectj-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/AutoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/auto-proxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/datasource_factory/DbcpDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/object_factory/MyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/transaction/MyTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/transaction/MyTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/type_handler/SexEnumTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/type_handler/StringTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/PropUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condition/failed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../设计模式/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/装配bean/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/anno-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/annotation/StudentAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/annotation/StudentAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/class-factory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/constructor-properties.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/装配bean/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/collection/setter-collection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/装配bean/dao_service/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/dao_service/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/p-namespace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/processor/MyBeanPostProcessor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/processor/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/processor/MyBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/setter-collection.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/static-factory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/装配bean/factory/ClassBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/factory/ClassBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/装配bean/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/装配bean/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/factory/static-factory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anno-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/annotations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotation/StudentAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/StudentAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/class-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructor-properties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/di/constructor-properties.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/setter-collection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao_service/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao_service/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p-namespace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/di/p-namespace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processor/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processor/MyBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/setter-collection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/static-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/装配bean.iml" beforeDir="false" afterPath="$PROJECT_DIR$/装配bean.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/ClassBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ClassBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/static-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/properties/ProConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/properties/ProConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/src/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/src/interceptor/Interceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/src/observer/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/src/observer/ProductList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,92 +98,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1200">
-                <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/condition/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-              <folding>
-                <element signature="method#test01#0;class#Test#0" />
-                <element signature="method#test02#0;class#Test#0" />
-                <element signature="method#test03#0;class#Test#0" />
-                <element signature="method#test04#0;class#Test#0" />
-                <element signature="method#test05#0;class#Test#0" />
-                <element signature="method#test06#0;class#Test#0" />
-                <element signature="method#test07#0;class#Test#0" />
-                <element signature="method#test08#0;class#Test#0" />
-                <element signature="method#test09#0;class#Test#0" />
-                <element signature="method#test10#0;class#Test#0" />
-                <element signature="method#test11#0;class#Test#0" />
-                <element signature="method#test12#0;class#Test#0" />
-                <element signature="method#test13#0;class#Test#0" />
-                <element signature="method#test14#0;class#Test#0" />
-                <element signature="method#test15#0;class#Test#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/condition/ConditionClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/condition/ConConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/annotation/StudentAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/properties/ProConfig2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/annotation/AnnoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,10 +108,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/properties/DatabaseConfig.java">
+        <entry file="file://$PROJECT_DIR$/装配bean.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="5225">
+                <caret line="209" column="24" selection-start-line="209" selection-start-column="24" selection-end-line="209" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/life_cycle/Maker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/life_cycle/life-cycle.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/properties/ProConfig2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/properties/xml-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/properties/xml-config2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/properties/DatabaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -160,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/properties/ProConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="225">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -186,8 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bean_xml/MyBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/dao_service/Test.java" />
         <option value="$PROJECT_DIR$/src/setter/Address.java" />
         <option value="$PROJECT_DIR$/src/setter/Person.java" />
         <option value="$PROJECT_DIR$/src/class-factory.xml" />
@@ -222,23 +241,29 @@
         <option value="$PROJECT_DIR$/src/annotation/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/properties/ApplicaitonConfig.java" />
         <option value="$PROJECT_DIR$/src/properties/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/src/properties/ProConfig2.java" />
         <option value="$PROJECT_DIR$/src/properties/xml-properties.xml" />
         <option value="$PROJECT_DIR$/src/properties/xml-config.xml" />
         <option value="$PROJECT_DIR$/src/properties/DatabaseConfig.java" />
         <option value="$PROJECT_DIR$/src/properties/xml-config2.xml" />
         <option value="$PROJECT_DIR$/src/condition/User.java" />
         <option value="$PROJECT_DIR$/src/condition/ConConfig.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/condition/Human.java" />
         <option value="$PROJECT_DIR$/src/condition/ConditionClass.java" />
+        <option value="$PROJECT_DIR$/src/collection/setter-collection.xml" />
+        <option value="$PROJECT_DIR$/src/condition/Human.java" />
+        <option value="$PROJECT_DIR$/src/dao_service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/factory/ClassBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/factory/static-factory.xml" />
+        <option value="$PROJECT_DIR$/src/dao_service/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/factory/class-factory.xml" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/properties/ProConfig2.java" />
         <option value="$PROJECT_DIR$/note.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="115" />
-    <option name="y" value="15" />
+    <option name="x" value="75" />
+    <option name="y" value="40" />
     <option name="width" value="1750" />
     <option name="height" value="960" />
   </component>
@@ -250,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -268,12 +292,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563330528126" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563439563725" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -346,17 +371,22 @@
       <workItem from="1563275209335" duration="6738000" />
       <workItem from="1563327804272" duration="2729000" />
       <workItem from="1563433869188" duration="42000" />
+      <workItem from="1563436559732" duration="2622000" />
+      <workItem from="1563758384990" duration="10000" />
+      <workItem from="1563871379371" duration="17000" />
+      <workItem from="1563871475266" duration="63000" />
+      <workItem from="1563960070661" duration="33000" />
+      <workItem from="1564303353596" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31970000" />
+    <option name="totallyTimeSpent" value="34736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31444758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.26487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +403,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.31444758" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -394,65 +424,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/bean_xml/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/dao_service/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory/StaticBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/annotation.java" />
     <entry file="file://$PROJECT_DIR$/src/annotation/StudentService2.java" />
-    <entry file="file://$PROJECT_DIR$/src/collection/CollData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/ClassBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bean-post-processor.xml" />
-    <entry file="file://$PROJECT_DIR$/src/dao_service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao_service/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao_service/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao_service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/setter-collection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -461,149 +435,85 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/life_cycle/Source.java" />
-    <entry file="file://$PROJECT_DIR$/src/processor/MyBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/di/p-namespace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/di/constructor-properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/class-factory.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro-file.xml" />
     <entry file="file://$PROJECT_DIR$/src/profile/DevDataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/profile/ProfileDataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/profile/TestDataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/profile/ProfileTest.java" />
     <entry file="file://$PROJECT_DIR$/src/profile/failed.md" />
-    <entry file="file://$PROJECT_DIR$/src/annotation/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/life_cycle/Maker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/life_cycle/life-cycle.xml">
+    <entry file="file://$PROJECT_DIR$/src/annotation/annotations.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/static-factory.xml">
+    <entry file="file://$PROJECT_DIR$/src/annotation/StudentAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/annotation/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotation/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties/xml-config2.xml">
+    <entry file="file://$PROJECT_DIR$/src/annotation/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="150">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties/xml-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/collection/CollData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="325">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/condition/Human.java">
+    <entry file="file://$PROJECT_DIR$/src/collection/setter-collection.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/condition/ConditionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="250">
+          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/condition/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/condition/failed.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -614,48 +524,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/StudentAction.java">
+    <entry file="file://$PROJECT_DIR$/src/di/constructor-properties.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties/ProConfig2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotation/AnnoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties/DatabaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties/ProConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/di/p-namespace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao_service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/ClassBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/StaticBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao_service/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao_service/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao_service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/static-factory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/class-factory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="975">
+          <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
           <folding>
             <element signature="method#test01#0;class#Test#0" />
             <element signature="method#test02#0;class#Test#0" />
@@ -676,13 +657,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/annotation/AnnoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装配bean.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1200">
-            <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <first_editor relative-caret-position="5225">
+            <caret line="209" column="24" selection-start-line="209" selection-start-column="24" selection-end-line="209" selection-end-column="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/life_cycle/Maker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/life_cycle/life-cycle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties/xml-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties/xml-config2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties/DatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties/ProConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties/ProConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>

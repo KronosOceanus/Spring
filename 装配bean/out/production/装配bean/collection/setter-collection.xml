@@ -33,6 +33,7 @@
             <map>
                 <entry key="jack" value="杰克" />
                 <entry>
+                    <!-- key 的 value -->
                     <key><value>rose</value></key>
                     <value>肉丝</value>
                 </entry>

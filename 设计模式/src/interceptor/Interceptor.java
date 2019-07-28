@@ -2,7 +2,10 @@ package interceptor;
 
 import java.lang.reflect.Method;
 
-//拦截器进一步简化动态代理
+/**
+ * 拦截器进一步简化动态代理
+ * 与切面相比，可以获得请求访问类和方法，但无法获得请求参数的值
+ */
 public interface Interceptor {
 
     /**

@@ -4,8 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- 实例工厂（没有依赖注入） -->
-    <!-- 创建工厂实例 -->
+    <!-- 1.创建工厂实例 -->
     <bean id="classBeanFactory" class="factory.ClassBeanFactory" />
-    <!-- 获取 bean 实例     （工厂 id） -->
-    <bean id="userService" factory-bean="classBeanFactory" factory-method="createService" />
+    <!-- 2.获取 bean 实例     （工厂 id） -->
+    <bean id="userService" factory-bean="classBeanFactory" factory-method="createService">
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+
+    <bean id="userDao" class="dao_service.UserDaoImpl" />
 </beans>

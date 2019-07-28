@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mappers.UserMapper">
+
+    <resultMap id="userMapper" type="user">
+        <result property="id" column="id" />
+        <result property="userName" column="user_name" />
+        <result property="password" column="password" />
+        <!-- EnumOrdinalTypeHandler 把下标转换为对应的枚举
+             EnumTypeHandler ，把名称转换为对应的枚举 -->
+        <result property="sex" column="sex"
+                typeHandler="type_handler.SexEnumTypeHandler" />
+        <result property="mobile" column="mobile" />
+        <result property="tel" column="tel" />
+        <result property="email" column="email" />
+        <result property="note" column="note" />
+    </resultMap>
+
+    <select id="getUser" parameterType="integer" resultMap="userMapper"
+        databaseId="mysql"> <!-- 使用 mysql 数据库 -->
+        select id, user_name, password, sex, mobile, tel, email, note from t_user
+        where id = #{id}
+    </select>
+</mapper>

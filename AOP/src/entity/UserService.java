@@ -3,6 +3,6 @@ package entity;
 public interface UserService {
 
     void addUser();
-    void updateUser();
+    String updateUser();
     void deleteUser();
 }

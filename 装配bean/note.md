@@ -59,6 +59,7 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
 ```
 
 ## bean 实例化的三种方法
+注入方式还是原来一样
 #### 以上都是默认构造
 #### 静态工厂
 用于生产实例对象，所有的方法都是 static 方法，常用于 Spring 整合其他框架
@@ -78,6 +79,18 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
 多例：每执行一次 getBean 获取一个实例
 
 ## bean 生命周期
+### 总过程
+执行方法过程：接口.方法
+1. BeanNameAware.setBeanName：   设置名称
+2. BeanFactoryAware.setBeanFactory： 设置从属工厂
+3. ApplicationContextAware.setApplicationContext：   设置从属上下文
+4. BeanPostProcessor.postProcessBeforeInitialization：   初始化前
+5. InitializingBean.afterPropertiesSet： 注入属性后
+6. xml配置中.init： 自定义初始化
+7. BeanPostProcessor.postProcessAfterInitialization：    初始化后
+8.  真实对象的方法
+9. DisposableBean.destory：  系统销毁
+10. xml配置中.destory： 自定义销毁
 #### 执行 bean 的初始化和销毁方法
 必须是单例的/使用 scope="prototype" 变成多例
 ```xml
@@ -260,7 +273,8 @@ web 层
         private String url = null;
         @Value("${jdbc.user}")
         private String user = null;
-        @Value("${jdbc.pass}"human      private String pass =humanl;
+        @Value("${jdbc.pass}")
+        private String pass = null;
     
         @Bean(name = "allConfig")
         public String getAll(){

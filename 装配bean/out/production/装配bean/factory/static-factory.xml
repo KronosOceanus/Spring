@@ -4,6 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- 静态工厂（没有依赖注入）                               （方法名）-->
-    <bean id="userService" class="factory.StaticBeanFactory" factory-method="createService" />
+    <bean id="userService" class="factory.StaticBeanFactory" factory-method="createService">
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+    <bean id="userDao" class="dao_service.UserDaoImpl" />
 
 </beans>

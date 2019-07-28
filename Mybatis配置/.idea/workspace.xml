@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c63e6188-7bee-42a0-9ef7-34c52cd179ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/AspectJAnnoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/AspectJXmlAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/aspectj-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/AutoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/auto-proxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasource_factory/DbcpDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object_factory/MyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transaction/MyTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transaction/MyTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/type_handler/SexEnumTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/type_handler/StringTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/PropUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装配bean/src/condition/failed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../设计模式/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/collection/setter-collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/dao_service/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/dao_service/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/ClassBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/ClassBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/collection/setter-collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/dao_service/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/dao_service/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/ClassBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/ClassBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/static-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/properties/ProConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/properties/ProConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/src/observer/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/src/observer/ProductList.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transaction/MyTransactionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mappers/FileMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transaction/MyTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/transaction/Transaction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mybatis配置.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/object_factory/MyObjectFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="method#test01#0;class#Test#0" />
+                <element signature="method#test02#0;class#Test#0" />
+                <element signature="method#test03#0;class#Test#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/utils/CodeUtils.java" />
+        <option value="$PROJECT_DIR$/src/utils/PropUtils.java" />
+        <option value="$PROJECT_DIR$/src/type_handler/MyTypeHandler.java" />
+        <option value="$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/type_handler/StringTypeHandler2.java" />
+        <option value="$PROJECT_DIR$/src/mappers/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/entity/SexEnum.java" />
+        <option value="$PROJECT_DIR$/src/type_handler/SexEnumTypeHandler.java" />
+        <option value="$PROJECT_DIR$/src/entity/TestFile.java" />
+        <option value="$PROJECT_DIR$/src/mappers/FileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/mappers/FileMapper.java" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/type_handler/StringTypeHandler.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/object_factory/MyObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/transaction/MyTranscation.java" />
+        <option value="$PROJECT_DIR$/src/transaction/MyTranscationFactory.java" />
+        <option value="$PROJECT_DIR$/src/transaction/MyTransactionFactory.java" />
+        <option value="$PROJECT_DIR$/src/datasource_factory/DbcpDataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/note.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mybatis配置" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis配置" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis配置" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis配置" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564134295382" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mybatis入门" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Spring\Mybatis配置\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Mybatis配置" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c63e6188-7bee-42a0-9ef7-34c52cd179ab" name="Default Changelist" comment="" />
+      <created>1564098069743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564098069743</updated>
+      <workItem from="1564098071162" duration="10234000" />
+      <workItem from="1564127771197" duration="6562000" />
+      <workItem from="1564187034978" duration="4533000" />
+      <workItem from="1564275858840" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25970548" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43502825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper2.java" />
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/io/ClassLoaderWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/io/Resources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+          <folding>
+            <element signature="e#7009#7010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/type_handler/StringTypeHandler2.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/SexEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/TestFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/FileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
+            <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasource_factory/DbcpDataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/PropUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/内置别名.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/type/TypeHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/type/ClobTypeHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/type/BaseTypeHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/type_handler/SexEnumTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/type_handler/StringTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" selection-start-line="13" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transaction/MyTransactionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" selection-start-line="10" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/FileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transaction/MyTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/transaction/Transaction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis配置.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object_factory/MyObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="method#test01#0;class#Test#0" />
+            <element signature="method#test02#0;class#Test#0" />
+            <element signature="method#test03#0;class#Test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Mybatis配置</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

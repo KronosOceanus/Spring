@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b370cee9-db9c-4652-8478-5087bf55bcde" name="Default Changelist" comment="" />
+    <list default="true" id="b370cee9-db9c-4652-8478-5087bf55bcde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_anno/AspectJAnnoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/AspectJXmlAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/aspectj_xml/aspectj-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/AutoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP/src/auto_proxy/auto-proxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/entity/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jdbc模板/src/jdbc_template/JTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mappers/RoleMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis入门/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/datasource_factory/DbcpDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/object_factory/MyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/transaction/MyTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/transaction/MyTransactionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/type_handler/SexEnumTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/type_handler/StringTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/CodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/PropUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis配置/src/utils/SqlSessionFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装配bean/src/condition/failed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/entity/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/FactoryBeanAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/out/production/AOP/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/entity/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/FactoryBeanAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/src/factory_bean_proxy/factory-bean-proxy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/collection/setter-collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/dao_service/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/dao_service/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/ClassBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/ClassBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/collection/setter-collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/collection/setter-collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/dao_service/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/dao_service/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/ClassBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/ClassBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/class-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/factory/static-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/src/properties/ProConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/properties/ProConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interceptor/Interceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/ProductList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,30 +99,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/ProductList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-              <folding>
-                <element signature="method#test01#0;class#Test#0" />
-                <element signature="method#test02#0;class#Test#0" />
-                <element signature="method#test03#0;class#Test#0" />
-                <element signature="method#test04#0;class#Test#0" />
-                <element signature="method#test05#0;class#Test#0" />
-              </folding>
+            <state relative-caret-position="279">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/Interceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/observer/ProductList.java">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/InterceptorJdkProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding>
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="925">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -50,24 +135,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/observer/TaoBaoObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="275">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cglib_proxy/CGLIBProxy.java">
+        <entry file="file://$PROJECT_DIR$/src/interceptor/MyInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="250">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="method#before#0;class#MyInterceptor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chain/InterceptorJdkProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -82,28 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chain/Interceptor1.java">
+        <entry file="file://$PROJECT_DIR$/src/jdk_proxy/JDKProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chain/Interceptor2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chain/Interceptor3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="325">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,6 +198,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/cglib_proxy/People.java" />
         <option value="$PROJECT_DIR$/src/cglib_proxy/CGLIBProxy.java" />
         <option value="$PROJECT_DIR$/src/interceptor/MyInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/interceptor/Interceptor.java" />
         <option value="$PROJECT_DIR$/src/interceptor/InterceptorJdkProxy.java" />
         <option value="$PROJECT_DIR$/src/chain_model/InterceptorJdkProxy.java" />
         <option value="$PROJECT_DIR$/src/chain_model/MyInterceptor.java" />
@@ -138,9 +219,10 @@
         <option value="$PROJECT_DIR$/src/chain_model/Interceptor.java" />
         <option value="$PROJECT_DIR$/src/entity/DogImpl.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/observer/ProductList.java" />
         <option value="$PROJECT_DIR$/src/observer/JingDongObserver.java" />
         <option value="$PROJECT_DIR$/src/observer/TaoBaoObserver.java" />
+        <option value="$PROJECT_DIR$/src/observer/ProductList.java" />
+        <option value="$PROJECT_DIR$/src/interceptor/Interceptor.java" />
       </list>
     </option>
   </component>
@@ -150,13 +232,13 @@
     <option name="width" value="1750" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,10 +251,17 @@
               <item name="设计模式" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,16 +315,19 @@
       <updated>1562721698672</updated>
       <workItem from="1562721700250" duration="5964000" />
       <workItem from="1562746914650" duration="3005000" />
+      <workItem from="1563436567584" duration="994000" />
+      <workItem from="1564276621238" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8969000" />
+    <option name="totallyTimeSpent" value="10192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23458445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,50 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interceptor/MyInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interceptor/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain/InterceptorJdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-566">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interceptor/InterceptorJdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdk_proxy/JDKProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -348,20 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cglib_proxy/CGLIBProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chain/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chain/Interceptor1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -383,27 +417,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cglib_proxy/CGLIBProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="325">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
           <folding>
             <element signature="method#test01#0;class#Test#0" />
             <element signature="method#test02#0;class#Test#0" />
             <element signature="method#test03#0;class#Test#0" />
             <element signature="method#test04#0;class#Test#0" />
-            <element signature="method#test05#0;class#Test#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/ProductList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,13 +444,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/TaoBaoObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/TaoBaoObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/chain/InterceptorJdkProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="850">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chain/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdk_proxy/JDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/ProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="method#before#0;class#MyInterceptor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/InterceptorJdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptor/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>

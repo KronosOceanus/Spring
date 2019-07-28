@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userService" class="entity.UserServiceImpl" />
+    <bean id="aspectjAspect" class="aspectj_xml.AspectJXmlAspect" />
+
+    <aop:config>
+        <!-- 引用切面类 -->
+        <aop:aspect ref="aspectjAspect">
+            <!-- 设置切点 -->
+            <aop:pointcut id="pointCut" expression="execution(* entity.UserServiceImpl.*(..))" />
+            <!-- 前置通知   方法名        切入点的引用（可以与其他通知共享） -->
+            <aop:before method="myBefore" pointcut-ref="pointCut" />
+            <!-- 后置通知 -->
+            <aop:after-returning method="myAfterReturning" pointcut-ref="pointCut"
+                returning="ret"/>  <!-- returning 确定第二个参数名/Object（代表真实方法的返回值） -->
+            <!-- 环绕通知 -->
+            <aop:around method="myAround" pointcut-ref="pointCut" />
+            <!-- 异常抛出 -->
+            <aop:after-throwing method="myAfterThrowing" pointcut-ref="pointCut"
+                throwing="e"/>  <!-- throwing 确定第二个参数名/Throwable（代表异常） -->
+            <!-- 其他通知类似 -->
+        </aop:aspect>
+    </aop:config>
+</beans>

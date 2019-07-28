@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 属性定义，然后可以在其他地方使用占位符引用 -->
+    <properties>
+        <property name="database.driver" value="com.mysql.cj.jdbc.Driver" />
+        <property name="database.url" value="jdbc:mysql://127.0.0.1:3306/mybatis_intro
+                        ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="database.username" value="root" />
+        <property name="database.password" value="java521...." />
+    </properties>
+    <!-- 属性文件引用，同样可以使用占位符
+        <properties resource="jdbc.properties" />
+     -->
+
+    <!-- 别名 -->
+    <typeAliases>
+        <typeAlias type="entity.Role" alias="role" />
+        <typeAlias type="entity.User" alias="user" />
+    </typeAliases>
+
+    <!-- 类型处理器 -->
+    <typeHandlers>
+        <typeHandler handler="type_handler.StringTypeHandler"
+                     javaType="string" jdbcType="VARCHAR" />
+    </typeHandlers>
+    <!-- 使用包扫描类型处理器
+        <typeHandlertype>
+            <package name="type_handler" />
+        </typeHandlertype>
+     -->
+
+    <!-- 自定义对象工厂，用于的创建结果集实例 -->
+    <objectFactory type="object_factory.MyObjectFactory">
+        <property name="prop1" value="value1" />
+    </objectFactory>
+
+    <!-- 数据库环境 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 配置事务管理器是配置工厂！ -->
+            <transactionManager type="transaction.MyTransactionFactory" />
+            <dataSource type="datasource_factory.DbcpDataSourceFactory">
+                <property name="driver" value="${database.driver}" />
+                <property name="url" value="${database.url}" />
+                <property name="username" value="${database.username}" />
+                <property name="password" value="${database.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 也可以自定义 -->
+    <databaseIdProvider type="DB_VENDOR">
+        <!-- 数据库的名称和对应的别名 -->
+        <property name="Oracle" value="oracle" />
+        <property name="MySQL" value="mysql" />
+        <property name="DB2" value="db2" />
+    </databaseIdProvider>
+
+    <!-- 映射文件 -->
+    <mappers>
+        <mapper resource="mappers/RoleMapper.xml" />
+        <mapper resource="mappers/UserMapper.xml" />
+        <mapper resource="mappers/FileMapper.xml" />
+    </mappers>
+    
+
+</configuration>

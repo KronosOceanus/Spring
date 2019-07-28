@@ -1,5 +1,6 @@
 package factory;
 
+import dao_service.UserDao;
 import dao_service.UserService;
 import dao_service.UserServiceImpl;
 

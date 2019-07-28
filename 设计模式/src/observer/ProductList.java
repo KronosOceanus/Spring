@@ -19,6 +19,7 @@ public class ProductList extends Observable {
 
     private ProductList(){}
 
+    //单例模式
     public static ProductList getInstance(){
         if (instance == null){
             instance = new ProductList();

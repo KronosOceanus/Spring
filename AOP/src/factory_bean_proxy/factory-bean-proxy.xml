@@ -7,7 +7,7 @@
     <bean id="userService" class="entity.UserServiceImpl" />
     <!-- 2.创建切面类 -->
     <bean id="factoryBeanAspect" class="factory_bean_proxy.FactoryBeanAspect" />
-    <!-- 3.创建代理类
+    <!-- 3.创建代理类（手动）
         使用工厂 bean，底层调用 getObject 方法，得到一个特殊的 bean
         如下工厂 bean，用于生成代理对象 -->
     <bean id="userServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">

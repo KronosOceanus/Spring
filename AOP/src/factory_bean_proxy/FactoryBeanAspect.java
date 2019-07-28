@@ -10,12 +10,12 @@ import org.aopalliance.intercept.MethodInvocation;
 public class FactoryBeanAspect implements MethodInterceptor {
     @Override
     public Object invoke(MethodInvocation methodInvocation) throws Throwable {
-        System.out.println("前方法！");
+        System.out.println("半自动前方法！");
 
         //手动执行目标方法
         Object obj = methodInvocation.proceed();
 
-        System.out.println("后方法！");
+        System.out.println("半自动后方法！");
         return obj;
     }
 }
