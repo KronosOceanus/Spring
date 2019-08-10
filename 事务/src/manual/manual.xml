@@ -25,6 +25,7 @@
     <!-- 3.service -->
     <bean id="accountService" class="entity.AccountServiceImpl">
         <property name="accountDao" ref="accountDao" />
+        <!-- 使用模板 -->
         <property name="transactionTemplate" ref="transactionTemplate" />
     </bean>
 

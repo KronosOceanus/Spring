@@ -1,11 +1,12 @@
+import full_automatic_anno.FullAutomaticAnnoConfig;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import entity.AccountService;
 
 
 public class Test {
-
 
     //数据源测试
     private void test01(){
@@ -59,9 +60,17 @@ public class Test {
                 "accountService", AccountService.class);
         accountService.transfer("rose", "jack", 1000);
     }
+    //注解全自动代理测试 2
+    private void test07(){
+        ApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext(FullAutomaticAnnoConfig.class);
+        AccountService accountService = applicationContext.getBean(
+                "accountService", AccountService.class);
+        accountService.transfer("rose", "jack", 1000);
+    }
 
     public static void main(String[] args) {
         Test t = new Test();
-        t.test06();
+        t.test07();
     }
 }

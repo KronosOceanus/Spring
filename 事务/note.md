@@ -78,19 +78,21 @@ A B 必选，C D 可选
 #### 顶级接口
 ###### PlatformTransactionManager
 平台事务管理器，Spring 管理事务必须使用事务管理器
-* 作用：进行事务管理时，必须配置事务管理器
+* 作用：获取事务状态
 ###### TransactionDefinition
-事务详情（事务定义/属性），用于 Spring 确定事务详情（隔离级别、是否只读、超时时间）等，传参到事务管理器
-* 作用：配置详情，然后 Spring 将配置封装到该对象
+事务定义（事务详情），用于 Spring 确定事务定义（隔离级别、是否只读、超时时间）等，传参到事务管理器
+* 作用：配置定义，然后 Spring 将配置封装到该对象
 ###### TransactionStatus
 事务状态，用于 Spring 记录当前事务的运行状态（是否有保存点、事务是否完成）等，通过事务管理器得到
 *作用：Spring 底层根据状态进行操作
 
 ### PlatformTransactionManager 事务管理器
+导入 jar（平台事务管理器的实现类）：
+* orm（包含 Hibernate 事务管理器）
 #### 源码
 ```java
     public interface PlatformTransactionManager {
-        //通过事务详情，获得事务状态，从而管理事务
+        //通过事务定义，获得事务状态，从而管理事务
         TransactionStatus getTransaction(TransactionDefinition var1) throws TransactionException;
         //根据状态提交
         void commit(TransactionStatus var1) throws TransactionException;
@@ -98,8 +100,46 @@ A B 必选，C D 可选
         void rollback(TransactionStatus var1) throws TransactionException;
     }
 ```
-导入 jar（平台事务管理器的实现类）：
-* orm
+#### TransactionTemplate 事务模板源码
+由 Spring 提供的事务管理器模板，源码（模板主要作用是回调）
+```java
+    public class TransactionTemplate extends DefaultTransactionDefinition implements TransactionOperations, InitializingBean {
+        //事务管理器
+        private PlatformTransactionManager transactionManager;
+        //                     回调对象（本质是一个方法）
+        public <T> T execute(TransactionCallback<T> action) throws TransactionException {
+            //使用自定义事务管理器（lambda 表达式/匿名内部类）
+            if (this.transactionManager instanceof CallbackPreferringPlatformTransactionManager) {
+                return ((CallbackPreferringPlatformTransactionManager)this.transactionManager).execute(this, action);
+            } 
+            else { //系统默认事务管理器
+                //获取事务状态
+                TransactionStatus status = this.transactionManager.getTransaction(this);
+    
+                Object result;
+                try {
+                    //回调接口方法
+                    result = action.doInTransaction(status);
+                } catch (RuntimeException var5) {
+                    //回滚异常方法
+                    this.rollbackOnException(status, var5);
+                    throw var5;
+                } catch (Error var6) {
+                    this.rollbackOnException(status, var6);
+                    throw var6;
+                } catch (Throwable var7) {
+                    this.rollbackOnException(status, var7);
+                    //抛出无法捕获异常
+                    throw new UndeclaredThrowableException(var7, "TransactionCallback threw undeclared checked exception");
+                }
+                //提交事务
+                this.transactionManager.commit(status);
+                return result;
+            }
+        }
+    }
+```
+可以看到，事务的创建，提交和回滚是通过 PlatformTransactionManager 接口完成的
 #### 常见事务管理器
 * DataSourceTransactionManager：JDBC 事务管理器（JdbcTemplate）
 * HibernateTransactionManager：Hebernate 事务管理器
@@ -247,6 +287,7 @@ A B 必选，C D 可选
     <!-- 3.service -->
     <bean id="accountService" class="entity.AccountServiceImpl">
         <property name="accountDao" ref="accountDao" />
+        <!-- 使用事务模板 -->
         <property name="transactionTemplate" ref="transactionTemplate" />
     </bean>
 

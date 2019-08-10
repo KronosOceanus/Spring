@@ -6,6 +6,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 
 /**
  * 根据条件装配 bean
+ * 需要被装配的 bean 添加 @Conditional 注解
  * 如果装配失败会抛出异常
  */
 public class ConditionClass implements Condition {
