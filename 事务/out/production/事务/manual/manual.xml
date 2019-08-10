@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- TransactionTemplate 手动转账 -->
+
+    <!-- 1.DBCP 数据源配置         默认实现类（必须告知使用 close 方法关闭连接）-->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/transfer_accounts
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+
+    <!-- 2.dao -->
+    <bean id="accountDao" class="entity.AccountDaoImpl">
+        <!-- 为 JdbcDaoSupport 设置数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 3.service -->
+    <bean id="accountService" class="entity.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao" />
+        <property name="transactionTemplate" ref="transactionTemplate" />
+    </bean>
+
+
+    <!-- 4.配置模板 -->
+    <bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+        <!-- 需要事务管理器 -->
+        <property name="transactionManager" ref="txManager" />
+    </bean>
+
+    <!-- 5.配置事务管理器（数据源事务管理器） -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 需要数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+
+</beans>

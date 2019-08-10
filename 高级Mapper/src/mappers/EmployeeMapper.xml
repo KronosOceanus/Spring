@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mappers.EmployeeMapper">
+
+    <resultMap id="employee" type="entity.Employee">
+        <id column="id" property="id" />
+        <result column="real_name" property="realName" />
+        <result column="sex" property="sex" typeHandler="utils.SexEnumTypeHandler" />
+        <result column="birthday" property="birthday" />
+        <result column="mobile" property="mobile" />
+        <result column="email" property="email" />
+        <result column="position" property="position" />
+        <result column="note" property="note" />
+        <!--                         根据 id 查询级联属性（参数） -->
+        <association property="workCard" column="id" select="mappers.WorkCardMapper.getWorkCardByEmpId" />
+        <!-- 一对多 -->
+        <collection property="employeeTasks" column="id" select="mappers.EmployeeTaskMapper.getEmployeeTaskByEmpId"
+            fetchType="eager"/> <!-- 立即加载，lazy 为延迟加载 -->
+        <!-- 鉴别器 -->
+        <discriminator javaType="int" column="sex">
+            <case value="1" resultMap="maleHealthFromMapper" />
+            <case value="0" resultMap="femaleHealthFormMapper" />
+        </discriminator>
+    </resultMap>
+                                                                            <!-- 继承 -->
+    <resultMap id="femaleHealthFormMapper" type="entity.FemaleHealthForm" extends="employee">
+        <association property="femaleHealthForm" column="id"
+                     select="mappers.FemaleHealthFormMapper.getFemaleHealthForm" />
+    </resultMap>
+
+    <resultMap id="maleHealthFormMapper" type="entity.MaleHealthForm" extends="employee">
+        <association property="maleHealthForm" column="id"
+                     select="mappers.MaleHealthFormMapper.getMaleHealthForm" />
+    </resultMap>
+
+    <select id="getEmployee" parameterType="int" resultMap="employee">
+        select id, real_name as realName, sex, birthday, mobile, email, position, note
+        from t_employee where id = #{id}
+    </select>
+</mapper>

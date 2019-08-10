@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+        <!-- 注意！：该属性为驱动类 -->
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis_intro
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+    <!-- 该类实际返回是 SqlSessionFactory（通过 getObject 方法）-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- Spring 引入 MyBatis 配置文件 -->
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+    </bean>
+
+    <!-- 线程安全类,每个线程的 SqlSession 唯一且互不冲突，可以完成简单增删查改 -->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <!-- 配置工厂（报错不用理会） -->
+        <constructor-arg ref="sqlSessionFactory" />
+        <!-- 配置底层执行器 <constructor-arg value="BATCH" /> -->
+    </bean>
+
+    <!-- 在 Spring 中获取单个 Mapper 实现类 -->
+    <bean id="roleMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <!-- 映射器接口 -->
+        <property name="mapperInterface" value="mappers.RoleMapper" />
+        <!-- SqlSessionFactory 或者 SqlSessionTemplate -->
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <!-- 配置 Mapper 扫描器 -->
+    <bean id="roleMapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="mappers" />
+        <!-- 二选一 -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+        <!-- 指定要扫描类的注解（扫描带有 @Repository 注解的接口为 Mapper） -->
+        <property name="annotationClass" value="org.springframework.stereotype.Repository" />
+        <!-- 标记接口，继承了 BaseMapper 接口的接口作为 Mapper
+            <property name="markerInterface" value="mappers.BaseMapper" /> -->
+    </bean>
+
+
+</beans>

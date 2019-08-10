@@ -1,5 +1,5 @@
 import entity.User;
-import entity.UserDao;
+import dao.UserDao;
 import jdbc_template.JDBCConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper>
+    <select id="findRoles" parameterType="role" resultMap="roleResultMap">
+        select role_no, role_name, note from t_role
+        <!-- 省去了 1 = 1 的条件（where 中的条件成立才会加入 where） -->
+        <where>
+            <if test="roleNo != null and roleNo != ''">
+                AND role_no = #{roleNo}
+            </if>
+            <if test="roleName != null and roleName != ''">
+                AND role_name like concat('%', #{roleName}, '%')
+            </if>
+        </where>
+    </select>
+
+</mapper>

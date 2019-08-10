@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- FactoryBean 半自动转账 -->
+
+    <!-- 1.配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/transfer_accounts
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+    <!-- 2.dao -->
+    <bean id="accountDao" class="entity.AccountDaoImpl">
+        <!-- 为 JdbcDaoSupport 设置数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 3.service -->
+    <bean id="accountService" class="entity.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao" />
+    </bean>
+
+    <!-- 4.service 代理 -->
+    <bean id="proxyAccountService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <!-- 接口 -->
+        <property name="proxyInterfaces" value="entity.AccountService"/>
+        <!-- 目标类 -->
+        <property name="target" ref="accountService" />
+        <!-- 事务管理器 -->
+        <property name="transactionManager" ref="txManager" />
+        <!-- 事务属性 -->
+        <property name="transactionAttributes">
+            <props>
+                <!-- 确定哪些方法（service 层的 transfer 方法）使用当前事务配置 -->
+                <prop key="transfer" >
+                    <!-- 配置事务详情
+                    格式：传播行为，隔离级别，是否只读，-异常回滚，+异常提交 -->
+                    <!-- 默认传播行为     默认隔离级别 -->
+                    PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+                </prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- 5.事务管理器（数据源事务管理器） -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 需要数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+</beans>

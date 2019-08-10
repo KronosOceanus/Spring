@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mappers.KeyMapper">
+    <insert id="insertRole1" parameterType="role"
+            useGeneratedKeys="true" keyProperty="id">
+        insert into t_role(role_name, note) values(#{roleName}, #{note})
+    </insert>
+
+    <!-- 自定义主键 -->
+    <insert id="insertRole2" parameterType="role">
+        <selectKey keyProperty="id" resultType="int" order="BEFORE">
+            select if (max(id) = null, 1, max(id) + 3) from t_role
+        </selectKey>
+        insert into t_role(role_name, note) values(#{roleName}, #{note})
+    </insert>
+</mapper>

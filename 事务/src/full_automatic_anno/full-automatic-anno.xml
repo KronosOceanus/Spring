@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 全自动代理 -->
+
+    <!-- 1.配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/transfer_accounts
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+    <!-- 2.dao -->
+    <bean id="accountDao" class="entity.AccountDaoImpl">
+        <!-- 为 JdbcDaoSupport 设置数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 3.service -->
+    <bean id="accountService" class="entity.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao" />
+    </bean>
+
+    <!-- 4.事务管理 -->
+    <!-- 4.1事务管理器 -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    <!-- 4.2 将事务管理器交给 Spring                        底层强制使用 CGLIB 代理-->
+    <tx:annotation-driven transaction-manager="txManager" proxy-target-class="true"/>
+</beans>

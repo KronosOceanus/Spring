@@ -87,6 +87,9 @@
 ```
 ## typeAliaes
 #### 内置别名
+
+![avator](内置别名.png)
+
 #### 自定义别名
 ```xml
     <typeAlias>
@@ -179,6 +182,9 @@
     参数不为空，则调用 setNonNullParameter 方法设置参数
 * getNullableResult：用于存储过程
 #### 内置转换器
+
+![avatar](内置转换器.png)
+
 #### 自定义转换器
 例：
 ```java
@@ -417,4 +423,4 @@ Mybatis 使用该工厂创建结果集实例，一般继承系统实现好的 De
 
 
 
-    
+​    

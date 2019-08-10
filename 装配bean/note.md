@@ -194,7 +194,7 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
     <bean id="id" class="">
 ```
 ###### web 开发的三个衍生注解（与 @Component 作用一样）
-* @Repository：
+* @Repository（仓库）：
 dao 层
 * @Service：
 service 层

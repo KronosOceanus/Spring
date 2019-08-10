@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper>
+    <select id="findRole" parameterType="string" resultMap="entity.Role">
+      <!-- 定义上下文变量，方便引用（可以定义多个） -->
+      <bind name="pattern" value="'%' + _parameter + '%'" />
+          select id, role_name as roleName, create_date as createDate, end_date as endDate, note
+          from t_role
+          where role_name like #{pattern}
+    </select>
+</mapper>

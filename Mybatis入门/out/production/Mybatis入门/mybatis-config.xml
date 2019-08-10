@@ -9,8 +9,9 @@
         <typeAlias type="entity.Role" alias="role" />
     </typeAliases>
     
-    <!-- 数据库配置 -->
+    <!-- 配置环境 -->
     <environments default="development">
+        <!-- 环境变量 -->
         <environment id="development">
             <!-- 配置事务管理器，采用 JDBC 管理器方式 -->
             <transactionManager type="JDBC" />

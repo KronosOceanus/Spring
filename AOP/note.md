@@ -69,7 +69,7 @@ PointCut 和 advice 的结合，无法获得 http 原始请求与相应对象
 ## cglib 动态代理
 目标类没有实现接口，编写过程与 jdk 动态代理相似
 
-## 半自动代理
+## 半自动代理（FactoryBean）
 让 Spring 创建代理对象，手动从 Spring 获取代理对象，导入 jar
 * 核心 4 + 1
 * aopaliance（aop 联盟）
@@ -126,7 +126,7 @@ PointCut 和 advice 的结合，无法获得 http 原始请求与相应对象
 
 ## 全自动代理
 与半自动代理的不同：
-* 还需要导入 aspectj-weaver 包（用到 AspectJ 框架/idea 中需手动导入）
+* 还需要导入 aspectj-weaver（织入） 包（用到 AspectJ 框架/idea 中需手动导入）
 * 代码方面，XML 配置不同，其他基本相同
 * 直接获取真实对象，自动返回代理对象
 #### XML 配置文件

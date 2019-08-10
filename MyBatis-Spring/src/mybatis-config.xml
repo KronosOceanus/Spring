@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC
+        "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+    <settings>
+        <!-- 全局启用缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- 强制使用生成的主键 -->
+        <setting name="useGeneratedKeys" value="true" />
+        <!-- 默认执行器，SIMPLE 普通，REUSE 重用预处理语句，BATCH 重用语句和批量更新 -->
+        <setting name="defaultExecutorType" value="REUSE" />
+        <!-- 全局启用延迟加载 -->
+        <setting name="lazyLoadingEnabled" value="true" />
+        <!-- 设置超时时间 -->
+        <setting name="defaultStatementTimeout" value="25000" />
+    </settings>
+
+    <!-- 别名 -->
+    <typeAliases>
+        <typeAlias type="entity.Role" alias="role" />
+    </typeAliases>
+
+    <!-- 映射器 -->
+    <mappers>
+        <mapper resource="mappers/RoleMapper.xml" />
+    </mappers>
+</configuration>

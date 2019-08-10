@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper>
+    <update id="updateRole" parameterType="role">
+        update t_role
+        <set>
+            <!-- 设置更新字段 -->
+            <if test="roleName != null and roleName != ''">
+                role_name = #{roleName},
+            </if>
+            <if test="note != null and note != ''">
+                note = #{note}
+            </if>
+        </set>
+        <!-- 传入主键 -->
+        where role_no = #{roleNo}
+    </update>
+</mapper>

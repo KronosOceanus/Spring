@@ -15,7 +15,6 @@ public class SqlSessionFactoryUtils {
 
     //给自己加锁
     private final static Class<SqlSessionFactoryUtils> LOCK = SqlSessionFactoryUtils.class;
-
     private static SqlSessionFactory sqlSessionFactory = null;
     //获取工厂接口
     public static SqlSessionFactory getSqlSessionFactory(){

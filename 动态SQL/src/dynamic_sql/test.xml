@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper>
+    <select id="findRoles" parameterType="string" resultMap="roleResultMap">
+        select role_no, role_name, note from t_role
+        <!-- 如果把 type = 'Y' 传递给 SQL 则加入 where 1 = 1 的条件 -->
+        <if test="type == 'Y'.toString()">
+            where 1 = 1
+        </if>
+    </select>
+</mapper>

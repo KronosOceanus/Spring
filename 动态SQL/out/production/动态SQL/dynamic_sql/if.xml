@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper>
+    <select id="findRoles" parameterType="string" resultMap="roleResultMap">
+        select role_no, role_name, note from t_role where 1 = 1
+        <!-- 满足条件则拼接 -->
+        <if test="roleName != null and roleName != ''">
+            and role_name like concat('%', #{roleName}, '%')
+        </if>
+    </select>
+</mapper>

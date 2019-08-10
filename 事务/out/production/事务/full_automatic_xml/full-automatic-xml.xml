@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 全自动代理 -->
+
+    <!-- 1.配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/transfer_accounts
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+    <!-- 2.dao -->
+    <bean id="accountDao" class="entity.AccountDaoImpl">
+        <!-- 为 JdbcDaoSupport 设置数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 3.service -->
+    <bean id="accountService" class="entity.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao" />
+    </bean>
+
+    <!-- 4.事务管理 -->
+    <!-- 4.1事务管理器 -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    <!-- 4.2 事务详情（相当于通知/增强） -->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <!-- 事务详情具体配置 方法名（可以用 * 表示前后缀）-->
+            <tx:method name="transfer"
+                       propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
+                        <!-- 传播行为            隔离级别            只读（产生异常） -->
+        </tx:attributes>
+    </tx:advice>
+    <!-- 4.3 AOP（确定方法切入点） -->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* entity.AccountServiceImpl.*(..))" />
+    </aop:config>
+
+</beans>

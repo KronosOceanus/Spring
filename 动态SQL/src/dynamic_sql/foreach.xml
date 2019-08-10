@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper>
+    <!-- 根据编号寻找对应数据 -->
+    <select id="findUserBySex" resultType="user" >
+        select * from t_role where role_no in
+          <!--           参数名            当前循环元素  循环元素下标-->
+          <foreach collection="roleNoList" item="roleNo" index="index"
+              open="(" separator="," close= ")">
+          <!-- 括号    分隔号 -->
+          #{roleNo}
+          </foreach>
+    </select>
+</mapper>

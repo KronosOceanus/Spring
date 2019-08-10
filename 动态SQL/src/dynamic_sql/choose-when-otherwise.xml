@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper>
+    <select id="findRoles" parameterType="role" resultMap="roleResultMap">
+        select role_no, role_name, note from t_role where 1 = 1
+        <choose>
+            <when test="roleNo != null and roleNo != ''">
+                AND role_no = #{roleNo}
+            </when>
+            <when test="roleName != null and roleName != ''">
+                AND role_name like concat('%', #{roleName}, '%')
+            </when>
+             <otherwise>
+                 AND note is not null
+             </otherwise>
+        </choose>
+    </select>
+</mapper>
