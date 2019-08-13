@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfe5081-5105-424c-afbe-f88bf6c0f236" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/mappers/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/service/RoleListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/service/RoleListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/service/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/AccountServiceImplManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/full_automatic_xml2/full-automatic-xml2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/out/production/Mybatis入门/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/out/production/Mybatis入门/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/entity/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/entity/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/事务/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/事务/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/full_automatic_anno/FullAutomaticAnnoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/full_automatic_anno/FullAutomaticAnnoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/事务.iml" beforeDir="false" afterPath="$PROJECT_DIR$/事务.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/class-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/factory/static-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/properties/xml-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/properties/xml-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/out/production/装配bean/properties/xml-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/out/production/装配bean/properties/xml-config2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/src/properties/xml-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/properties/xml-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/src/properties/xml-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/src/properties/xml-config2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" afterDir="false" />
-    </list>
+    <list default="true" id="8dfe5081-5105-424c-afbe-f88bf6c0f236" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="7593">
-                <caret line="399" column="5" selection-start-line="399" selection-start-column="5" selection-end-line="399" selection-end-column="5" />
+              <first_editor relative-caret-position="308">
+                <caret line="390" column="17" lean-forward="true" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -228,8 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,13 +195,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565519294887" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSE/DBCP连接池" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -332,6 +279,7 @@
       <workItem from="1565422390700" duration="4273000" />
       <workItem from="1565512047648" duration="6863000" />
       <workItem from="1565594692284" duration="36000" />
+      <workItem from="1565681749107" duration="855000" />
     </task>
     <servers />
   </component>
@@ -368,12 +316,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39794000" />
+    <option name="totallyTimeSpent" value="40649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="32" width="1400" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27719823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -616,8 +565,8 @@
     <entry file="file://$PROJECT_DIR$/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="7593">
-            <caret line="399" column="5" selection-start-line="399" selection-start-column="5" selection-end-line="399" selection-end-column="5" />
+          <first_editor relative-caret-position="308">
+            <caret line="390" column="17" lean-forward="true" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
