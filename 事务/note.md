@@ -144,7 +144,7 @@ A B 必选，C D 可选
 * DataSourceTransactionManager：JDBC 事务管理器（JdbcTemplate）
 * HibernateTransactionManager：Hebernate 事务管理器
 
-### TransactionDefinition 事务详情
+### TransactionDefinition 事务定义
 #### 源码
 ```java
     public interface TransactionDefinition {
@@ -174,8 +174,10 @@ A B 必选，C D 可选
         int getTimeout();
         //是否只读（查询：只读）
         boolean isReadOnly();
-        //配置事务详情名称，例如 save，add* 等
+        //配置事务定义名称，例如 save，add* 等
         String getName();
+        
+        //事务回滚的内容以 RollbackRuleAttribute 和 NoRollbackRuleAttribute 两个类保存
     }
 ```
 #### 传播行为
@@ -252,14 +254,32 @@ A B 必选，C D 可选
 
 ## 手动代理
 其他不变
-* service 层（增加一个事务模板）
+* service 层（增加一个事务模板,并且将事务封装成回调对象）
 ```java
-    public class AccountServiceImpl implements AccountService {
+    public class AccountServiceImplManual implements AccountService {
     
-        //事务模板（需要配置事务管理器）
+        private AccountDao accountDao;
+        public void setAccountDao(AccountDao accountDao){
+            this.accountDao = accountDao;
+        }
+    
+        //事务模板实现事务
         private TransactionTemplate transactionTemplate;
         public void setTransactionTemplate(TransactionTemplate transactionTemplate){
             this.transactionTemplate = transactionTemplate;
+        }
+    
+        @Override
+        public void transfer(String outer, String inner, Integer money) {
+            //事务封装成回调对象
+            transactionTemplate.execute(new TransactionCallbackWithoutResult() {
+                @Override
+                protected void doInTransactionWithoutResult(TransactionStatus transactionStatus) {
+                    accountDao.out(outer, money);
+                    int i=1/0;
+                    accountDao.in(inner, money);
+                }
+            });
         }
     }
 ```
@@ -318,12 +338,12 @@ A B 必选，C D 可选
         <property name="target" ref="accountService" />
         <!-- 事务管理器 -->
         <property name="transactionManager" ref="txManager" />
-        <!-- 事务属性（事务详情） -->
+        <!-- 事务属性（事务定义） -->
         <property name="transactionAttributes">
             <props>
                 <!-- 确定哪些方法（service 层的 transfer 方法）使用当前事务配置 -->
                 <prop key="transfer" >
-                    <!-- 配置事务详情 
+                    <!-- 配置事务定义 
                     格式：传播行为，隔离级别，是否只读，-异常回滚，+异常提交 -->
                     <!-- 默认传播行为     默认隔离级别        只读         异常提交-->
                     PROPAGATION_REQUIRED, ISOLATION_DEFAULT, readOnly, +java.lang.Exception
@@ -343,10 +363,10 @@ A B 必选，C D 可选
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
-    <!-- 4.2 事务详情（相当于通知/增强） -->
+    <!-- 4.2 事务定义（相当于通知/增强） -->
     <tx:advice id="txAdvice" transaction-manager="txManager">
         <tx:attributes>
-            <!-- 事务详情具体配置 方法名（可以用 * 表示前后缀）-->
+            <!-- 事务定义具体配置 方法名（可以用 * 表示前后缀）-->
             <tx:method name="transfer"
                        propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
                         <!-- 传播行为            隔离级别            只读（产生异常） -->
@@ -380,6 +400,39 @@ A B 必选，C D 可选
     }
 ```
 * 测试
+#### @Transactional 注解源码
+```java
+    @Target({ElementType.METHOD, ElementType.TYPE})
+    @Retention(RetentionPolicy.RUNTIME)
+    @Inherited
+    @Documented
+    public @interface Transactional {
+    
+        //定义事务管理器
+        @AliasFor("transactionManager")
+        String value() default "";
+        @AliasFor("value")
+        String transactionManager() default "";
+    
+        //传播行为
+        Propagation propagation() default Propagation.REQUIRED;
+        //隔离级别
+        Isolation isolation() default Isolation.DEFAULT;
+        //超时
+        int timeout() default -1;
+        //只读
+        boolean readOnly() default false;
+        //回滚异常定义
+        Class<? extends Throwable>[] rollbackFor() default {};
+        //类名
+        String[] rollbackForClassName() default {};
+        //不会滚异常定义
+        Class<? extends Throwable>[] noRollbackFor() default {};
+    
+        String[] noRollbackForClassName() default {};
+    }
+```
+这些配置会被封装到 TransactionDefinition 中
 
 # 整合 Junit 单元测试
 直接编写测试类

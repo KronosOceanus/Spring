@@ -26,15 +26,16 @@
         <property name="accountDao" ref="accountDao" />
     </bean>
 
-    <!-- 4.service 代理 -->
+    <!-- 4.service 代理                                                                   事务代理工厂 bean -->
     <bean id="proxyAccountService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
-        <!-- 接口 -->
+        <!-- 接口（代理） -->
         <property name="proxyInterfaces" value="entity.AccountService"/>
-        <!-- 目标类 -->
+        <!-- 目标类（代理） -->
         <property name="target" ref="accountService" />
+
         <!-- 事务管理器 -->
         <property name="transactionManager" ref="txManager" />
-        <!-- 事务属性 -->
+        <!-- 事务属性（即事务定义） -->
         <property name="transactionAttributes">
             <props>
                 <!-- 确定哪些方法（service 层的 transfer 方法）使用当前事务配置 -->

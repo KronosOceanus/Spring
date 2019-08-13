@@ -41,10 +41,11 @@ public class Test {
         dataSource.setUsername("root");
         dataSource.setPassword("java521....");
         dataSource.setDefaultAutoCommit(false);
-        //设置事务管理器和环境
+
+        //设置事务管理器（事务工厂）和环境
         TransactionFactory transactionFactory = new JdbcTransactionFactory();
         Environment environment = new Environment("development",transactionFactory,dataSource);
-        //创建配置对象
+        //创建配置对象（根标签）
         Configuration configuration = new Configuration(environment);
         //得到别名，添加映射器
         configuration.getTypeAliasRegistry().registerAlias("role", Role.class);

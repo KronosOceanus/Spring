@@ -32,17 +32,19 @@
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
-    <!-- 4.2 事务详情（相当于通知/增强） -->
+    <!-- 4.2 事务通知               配置事务管理器 -->
     <tx:advice id="txAdvice" transaction-manager="txManager">
+        <!-- 事务定义 -->
         <tx:attributes>
-            <!-- 事务详情具体配置 方法名（可以用 * 表示前后缀）-->
+            <!-- 事务定义具体配置 方法名（可以用 * 表示前后缀）-->
             <tx:method name="transfer"
                        propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
                         <!-- 传播行为            隔离级别            只读（产生异常） -->
         </tx:attributes>
     </tx:advice>
-    <!-- 4.3 AOP（确定方法切入点） -->
+    <!-- 4.3 AOP（织入） -->
     <aop:config>
+        <!-- 特殊切面   将通知和切入点结合 -->
         <aop:advisor advice-ref="txAdvice" pointcut="execution(* entity.AccountServiceImpl.*(..))" />
     </aop:config>
 

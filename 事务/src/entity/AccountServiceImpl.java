@@ -12,16 +12,13 @@ public class AccountServiceImpl implements AccountService {
         this.accountDao = accountDao;
     }
 
-    private TransactionTemplate transactionTemplate;
-    public void setTransactionTemplate(TransactionTemplate transactionTemplate){
-        this.transactionTemplate = transactionTemplate;
-    }
 
     @Override
     //包含事务的目标方法（或者直接加在类上）       两个默认值
     @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
     public void transfer(String outer, String inner, Integer money) {
         accountDao.out(outer, money);
+        int i=1/0;
         accountDao.in(inner, money);
     }
 }

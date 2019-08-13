@@ -23,7 +23,7 @@
     </bean>
 
     <!-- 3.service -->
-    <bean id="accountService" class="entity.AccountServiceImpl">
+    <bean id="accountService" class="entity.AccountServiceImplManual">
         <property name="accountDao" ref="accountDao" />
         <!-- 使用模板 -->
         <property name="transactionTemplate" ref="transactionTemplate" />

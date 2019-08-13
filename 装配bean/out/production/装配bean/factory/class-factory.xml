@@ -8,6 +8,7 @@
     <bean id="classBeanFactory" class="factory.ClassBeanFactory" />
     <!-- 2.获取 bean 实例     （工厂 id） -->
     <bean id="userService" factory-bean="classBeanFactory" factory-method="createService">
+        <!-- 注入到方法中的成员变量 -->
         <property name="userDao" ref="userDao" />
     </bean>
 

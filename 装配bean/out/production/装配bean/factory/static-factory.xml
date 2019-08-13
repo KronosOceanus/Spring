@@ -5,6 +5,7 @@
 
     <!-- 静态工厂（没有依赖注入）                               （方法名）-->
     <bean id="userService" class="factory.StaticBeanFactory" factory-method="createService">
+        <!-- 注入到方法中的成员变量 -->
         <property name="userDao" ref="userDao" />
     </bean>
 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- TransationInterceptor 全自动代理 -->
+
+    <!-- 1.配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/transfer_accounts
+                                      ?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="username" value="root" />
+        <property name="password" value="java521...." />
+    </bean>
+
+    <!-- 2.dao -->
+    <bean id="accountDao" class="entity.AccountDaoImpl">
+        <!-- 为 JdbcDaoSupport 设置数据源 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 3.service -->
+    <bean id="accountService" class="entity.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao" />
+    </bean>
+
+    <!-- 4.事务管理器-->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 5.配置拦截器（通知，需要配置事务管理器） -->
+    <bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+        <!-- 注意！：配置事务管理器 -->
+        <property name="transactionManager" ref="txManager" />
+        <property name="transactionAttributes">
+            <props>
+                <prop key="transfer">
+                    PROPAGATION_REQUIRED, ISOLATION_DEFAULT
+                </prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- 6.指明拦截器拦截的类（相当于 AOP 织入）-->
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames">
+            <list>
+                <!-- 要拦截的类（注意！：bean 的名字） -->
+                <value>*Service</value>
+            </list>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <!-- 对应拦截器 -->
+                <value>transactionInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

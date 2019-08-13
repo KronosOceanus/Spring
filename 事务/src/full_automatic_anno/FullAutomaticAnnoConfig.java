@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 @EnableTransactionManagement //启用事务驱动管理器
 @ImportResource("classpath:full_automatic_anno/full-automatic-anno.xml") //引入 XML 文件配置（数据源）
 public class FullAutomaticAnnoConfig implements TransactionManagementConfigurer {
-
+                                                //事务管理器配置接口
     //配置数据源 bean
     @Autowired
     private DataSource dataSource;
@@ -26,7 +26,7 @@ public class FullAutomaticAnnoConfig implements TransactionManagementConfigurer 
     //实现接口方法，使用数据源 bean，配置平台事务管理器
     @Override   //相当于 XML 中的 <tx annotation-driven />
     public PlatformTransactionManager annotationDrivenTransactionManager() {
-        //实现类
+        //实现类 数据源事务管理器
         DataSourceTransactionManager transactionManager =
                 new DataSourceTransactionManager();
         transactionManager.setDataSource(dataSource);

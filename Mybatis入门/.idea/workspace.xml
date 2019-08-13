@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6801bfcb-04d8-4a0e-a658-17edf49283e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImplManual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml2/full-automatic-xml2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mybatis入门/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mybatis入门/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mybatis入门/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mybatis入门/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/manual/manual.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../事务/事务.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/事务.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +75,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="575">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -74,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="method#createSqlSessionFactoryByXml#0;class#Test#0" />
                 <element signature="method#createSqlSessionFactoryByCode#0;class#Test#0" />
@@ -92,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="250">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
                 <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
@@ -148,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/mappers/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java" />
         <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/note.md" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -205,8 +227,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,17 +292,18 @@
       <workItem from="1564105055094" duration="11000" />
       <workItem from="1564307024348" duration="713000" />
       <workItem from="1564385765063" duration="18000" />
+      <workItem from="1565519931467" duration="313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16082000" />
+    <option name="totallyTimeSpent" value="16395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17202142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17402945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,30 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-          <folding>
-            <element signature="method#createSqlSessionFactoryByXml#0;class#Test#0" />
-            <element signature="method#createSqlSessionFactoryByCode#0;class#Test#0" />
-            <element signature="method#test01#0;class#Test#0" />
-            <element signature="method#test02#0;class#Test#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
-            <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -471,8 +470,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="575">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
+            <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="method#createSqlSessionFactoryByXml#0;class#Test#0" />
+            <element signature="method#createSqlSessionFactoryByCode#0;class#Test#0" />
+            <element signature="method#test01#0;class#Test#0" />
+            <element signature="method#test02#0;class#Test#0" />
+          </folding>
         </state>
       </provider>
     </entry>

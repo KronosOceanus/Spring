@@ -24,7 +24,7 @@ public class Test {
         AccountService accountService = applicationContext.getBean("accountService",AccountService.class);
         accountService.transfer("jack", "rose", 1000);
     }
-    //手动代理测试
+    //手动代理（TransactionTemplate）测试 ？？
     private void test03(){
         String xmlPath = "manual/manual.xml";
         ApplicationContext applicationContext =
@@ -33,7 +33,7 @@ public class Test {
                 "accountService", AccountService.class);
         accountService.transfer("rose", "jack", 1000);
     }
-    //半自动代理测试
+    //半自动（TransactionProxyFactoryBean）代理测试
     private void test04(){
         String xmlPath = "semi_automatic/semi-automatic.xml";
         ApplicationContext applicationContext =
@@ -42,7 +42,7 @@ public class Test {
                 "proxyAccountService", AccountService.class);
         accountService.transfer("rose", "jack", 1000);
     }
-    // XML 全自动代理测试
+    // XML（AOP） 全自动代理测试
     private void test05(){
         String xmlPath = "full_automatic_xml/full-automatic-xml.xml";
         ApplicationContext applicationContext =
@@ -51,7 +51,7 @@ public class Test {
                 "accountService", AccountService.class);
         accountService.transfer("jack", "rose", 1000);
     }
-    //注解全自动代理测试
+    //注解（XML）全自动代理测试
     private void test06(){
         String xmlPath = "full_automatic_anno/full-automatic-anno.xml";
         ApplicationContext applicationContext =
@@ -60,7 +60,7 @@ public class Test {
                 "accountService", AccountService.class);
         accountService.transfer("rose", "jack", 1000);
     }
-    //注解全自动代理测试 2
+    //注解（Config.class）全自动代理测试 2
     private void test07(){
         ApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(FullAutomaticAnnoConfig.class);
@@ -68,9 +68,17 @@ public class Test {
                 "accountService", AccountService.class);
         accountService.transfer("rose", "jack", 1000);
     }
+    // XML （TransactionInterceptor）全自动代理测试 ？？
+    private void test08(){
+        String xmlPath = "full_automatic_xml2/full-automatic-xml2.xml";
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext(xmlPath);
+        AccountService accountService = applicationContext.getBean("accountService", AccountService.class);
+        accountService.transfer("jack","rose", 1000);
+    }
 
     public static void main(String[] args) {
         Test t = new Test();
-        t.test07();
+        t.test03();
     }
 }

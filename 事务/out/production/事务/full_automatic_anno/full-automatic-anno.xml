@@ -31,6 +31,6 @@
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
-    <!-- 4.2 将事务管理器交给 Spring                        底层强制使用 CGLIB 代理-->
+    <!-- 4.2 将事务管理器交给 Spring（扫描 @Transactional） 底层强制使用 CGLIB 代理-->
     <tx:annotation-driven transaction-manager="txManager" proxy-target-class="true"/>
 </beans>
