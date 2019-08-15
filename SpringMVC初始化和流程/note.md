@@ -285,7 +285,7 @@
 这些组件 DispatcherServlet 会根据其配置文件 DispatcherServlet.properties 初始化
 
 ## 注解配置方式初始化
-#### 替换 web.xml 文件
+#### 替换 web.xml 文件（不能同时配置）
 以类代替 web.xml 配置文件，只需要该类实现 AbstractAnnotationConfigDispatcherServletInitializer 接口，
 例：
 ```java
