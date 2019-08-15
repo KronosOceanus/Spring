@@ -2,51 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4174ba-f10c-4ff0-9157-2a8f4581fd96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/src/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImplManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml2/full-automatic-xml2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/out/production/Mybatis入门/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/out/production/Mybatis入门/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/事务.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/事务.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/factory/class-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/factory/class-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/factory/static-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/factory/static-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/properties/xml-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/properties/xml-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/装配bean/properties/xml-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/装配bean/properties/xml-config2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties/xml-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/properties/xml-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/properties/xml-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/properties/xml-config2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/mappers/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/mappers/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/test/MapperFactoryBeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/test/MapperScannerConfigurerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/test/SqlSessionTemplateTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/properties/ProConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="200">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2302">
-                <caret line="314" column="35" lean-forward="true" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
+              <first_editor relative-caret-position="603">
+                <caret line="314" column="35" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -154,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/condition/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="375">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -247,10 +210,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="40" />
-    <option name="width" value="1750" />
-    <option name="height" value="960" />
+    <option name="x" value="480" />
+    <option name="y" value="11" />
+    <option name="width" value="1400" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,7 +224,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +246,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,17 +337,17 @@
       <workItem from="1565425919530" duration="238000" />
       <workItem from="1565580090427" duration="864000" />
       <workItem from="1565581127300" duration="45000" />
+      <workItem from="1565826308944" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36834000" />
+    <option name="totallyTimeSpent" value="36843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -644,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/properties/ProConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="200">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -656,6 +619,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -691,7 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/condition/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="375">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -709,18 +679,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2302">
-            <caret line="314" column="35" lean-forward="true" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
+          <first_editor relative-caret-position="603">
+            <caret line="314" column="35" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
