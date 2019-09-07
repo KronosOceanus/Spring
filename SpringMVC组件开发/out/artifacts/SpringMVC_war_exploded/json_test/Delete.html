@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Role Form Delete</title>
+    <script src="../js/jquery-3.4.0.js" type="text/javascript" charset="UTF-8"></script>
+    <script>
+        function deletee() {
+            var idList = [15,16];
+            $.post({
+                url:"../params/deleteRoles.form",
+                contentType:"application/json",
+                data:JSON.stringify(idList),
+                success: function (result) {
+                }
+            });
+        }
+    </script>
+</head>
+<body onload="deletee()">
+</body>
+</html>

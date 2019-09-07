@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Role Form js</title>
+    <script src="../js/jquery-3.4.0.js" type="text/javascript" charset="UTF-8"></script>
+    <script>
+        function find() {
+            var data = {
+                "roleName":"role",
+                "note":"note",
+                "pageParams":{
+                    "start":1,
+                    "limit":20
+                }
+            };
+            $.post({
+                url:"../params/findRoles.form",
+                contentType:"application/json",
+                data:JSON.stringify(data),
+                success: function (result) {
+                }
+            });
+        }
+    </script>
+</head>
+<body onload="find()">
+</body>
+</html>

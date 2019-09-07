@@ -7,7 +7,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14061a0-2853-49eb-a4ef-a973a5e52264" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/roleDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/AttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ParamsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ValidateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/interceptor/RoleInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/interceptor/RoleInterceptor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/interceptor/RoleInterceptor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/RoleParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/validator/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/validator/TransactionValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/jsp/roleDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/jsp/sessionAttribute.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/attribute/RequestAttribute.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/attribute/SessionAttribute.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/form/Validator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/js/jquery-3.4.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/json_test/Delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/json_test/Insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/json_test/RoleForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/json_test/Select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/json_test/SerializeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/out/production/MyBatis-Spring/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/src/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/src/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/src/test/MapperScannerConfigurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/src/test/MapperScannerConfigurerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/mappers/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC初始化和流程.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC初始化和流程.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/config/MyWebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC初始化和流程/config/MyWebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC初始化和流程/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC初始化和流程/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC初始化和流程/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-src中的配置类/MyWebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-src中的配置类/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/note.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +95,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="128" column="42" lean-forward="true" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -57,62 +152,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="550">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/entity/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="208">
-                <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/SpringServletContainerInitializer.class">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/roleDetails.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="18" selection-start-line="18" selection-end-line="55" selection-end-column="1" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/MyWebAppInitializer.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="95" lean-forward="true" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-              <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="550">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -123,7 +191,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -134,12 +204,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/controller/MyController.java" />
-        <option value="$PROJECT_DIR$/src/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/roleDetails.jsp" />
         <option value="$PROJECT_DIR$/src/config/MyWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/config-src中的配置类/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/service/RoleService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/note.md" />
+        <option value="$PROJECT_DIR$/src/mappers/RoleMapper.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/src/service/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/mappers/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/note.md" />
       </list>
     </option>
   </component>
@@ -151,9 +230,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
+    <option name="x" value="115" />
     <option name="y" value="10" />
-    <option name="width" value="1733" />
+    <option name="width" value="1735" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -181,13 +260,13 @@
               <item name="SpringMVC初始化和流程" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVC初始化和流程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringMVC初始化和流程" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVC初始化和流程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringMVC初始化和流程" type="b2602c69:ProjectViewProjectNode" />
@@ -207,6 +286,10 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringMVC初始化和流程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,16 +300,29 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565864752326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566202441195" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\Spring\SpringMVC初始化和流程\web\WEB-INF" />
+      <recent name="D:\project\Spring\SpringMVC初始化和流程" />
+      <recent name="D:\project\Spring\SpringMVC初始化和流程\src" />
+      <recent name="D:\project\Spring\SpringMVC初始化和流程\web" />
       <recent name="D:\project\Spring\SpringMVC初始化和流程\web\WEB-INF\jsp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Spring\SpringMVC初始化和流程" />
+      <recent name="D:\project\Spring\SpringMVC初始化和流程\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,13 +337,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
     <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/index.jsp" />
       <deployment>
         <artifact name="SpringMVC初始化和流程:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/SpringMVC_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -314,9 +410,86 @@
         </option>
       </method>
     </configuration>
+    <configuration name="roleDetails.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/roleDetails.jsp" />
+      <deployment>
+        <artifact name="SpringMVC初始化和流程:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVC_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="roleDetails_jsp_SpringMVC初始化和流程" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49744" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVC初始化和流程:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.roleDetails.jsp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.roleDetails.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -331,18 +504,32 @@
       <option name="presentableId" value="Default" />
       <updated>1565831999240</updated>
       <workItem from="1565832001117" duration="912000" />
-      <workItem from="1565856053550" duration="8600000" />
+      <workItem from="1565856053550" duration="8715000" />
+      <workItem from="1565997896594" duration="7817000" />
+      <workItem from="1566032275275" duration="3379000" />
+      <workItem from="1566091790607" duration="4687000" />
+      <workItem from="1566116072147" duration="597000" />
+      <workItem from="1566176969000" duration="2171000" />
+      <workItem from="1566199103929" duration="592000" />
+      <workItem from="1566202110351" duration="335000" />
+      <workItem from="1566202580984" duration="1012000" />
+      <workItem from="1566210855337" duration="714000" />
+      <workItem from="1566706355529" duration="19000" />
+      <workItem from="1567585258309" duration="190000" />
+      <workItem from="1567585526045" duration="7000" />
+      <workItem from="1567585765149" duration="136000" />
+      <workItem from="1567586187661" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9512000" />
+    <option name="totallyTimeSpent" value="31301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="8" width="1120" height="828" extended-state="0" />
+    <frame x="92" y="8" width="1388" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3559322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3518797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -350,11 +537,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.24787535" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40229884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23994254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,9 +548,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.24787535" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32902297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -381,16 +568,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -405,75 +582,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
+        <state relative-caret-position="2025">
+          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="128" column="42" lean-forward="true" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+        <state relative-caret-position="4550">
+          <caret line="249" column="5" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/SpringServletContainerInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="150">
           <caret line="18" selection-start-line="18" selection-end-line="55" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="275">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-src中的配置类/MyWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-src中的配置类/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/spring-jar/mybatis-spring-2.0.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web(s).xml" />
     <entry file="file://$PROJECT_DIR$/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
+          <first_editor relative-caret-position="11075">
+            <caret line="443" column="22" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/MyWebAppInitializer.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="95" lean-forward="true" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
-          <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="950">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/roleDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -536,7 +799,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -556,7 +818,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring MVC-4.3.18.RELEASE</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

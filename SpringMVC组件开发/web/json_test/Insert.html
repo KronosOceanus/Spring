@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert</title>
+    <script src="../js/jquery-3.4.0.js" type="text/javascript" charset="UTF-8" ></script>
+    <script>
+        function insert() {
+            var roleList = [
+               {"roleName": "role_name_1",
+                   "note": "note_1"},
+                {"roleName": "role_name_2",
+                    "note": "note_2"},
+                {"roleName": "role_name_3",
+                    "note": "note_3"}
+            ];
+            $.post({
+                url:"../params/insertRoles.form",
+                contentType:"application/json",
+                data:JSON.stringify(roleList),
+                success: function (result) {
+                }
+            });
+        }
+    </script>
+</head>
+<body onload="insert()">
+
+</body>
+</html>

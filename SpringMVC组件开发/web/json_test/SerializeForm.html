@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Serialize Form</title>
+    <script src="../js/jquery-3.4.0.js" type="text/javascript" charset="UTF-8"></script>
+    <script type="text/javascript">
+        function c(){
+            //根据 id 引用，将表单序列化
+            var str = $("form").serialize();
+            $.post({
+                url:"../params/commonParamPojo2.form",
+                data:str,
+                success:function (result) {
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<center>
+    <form id="form">
+        <table>
+            <tr>
+                <td>角色名称</td>
+                <td><input id="roleName" name="roleName" value="" /></td>
+            </tr>
+            <tr>
+                <td>备注</td>
+                <td><input id="note" name="note" /></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="button" value="提交" onclick="c()"/></td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

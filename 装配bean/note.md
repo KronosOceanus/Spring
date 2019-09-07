@@ -48,6 +48,7 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
     String xmlPath = "spring-config.xml";
     //将配置件转换为 Resource
     Resource resource = new ClassPathResource(xmlPath);
+	//实现类，默认可列 bean 工厂
     BeanFactory beanFactory = new DefaultListableBeanFactory();
     //配置文件注册到某个工厂
     BeanDefinitionReader bdr = 
@@ -188,7 +189,7 @@ BeanFactory的子接口,***当配置文件被加载，对象就已经实例化**
 ```
 
 ## 注解装配 bean
-下面等价
+下面等价，***注意！：都是标在实现类上，才能实例化***
 ###### @Component("id")
 ```xml
     <bean id="id" class="">
@@ -211,9 +212,9 @@ web 层
 优先使用该类注入
 
 ###### @PostConstruct
-初始化
+初始化方法
 ###### @PreDestory
-销毁
+销毁方法
 
 ###### @Scope()
 值为 ConfigurableBeanFactory 类的常量
@@ -285,7 +286,7 @@ web 层
 XML 配置文件
 
 ```xml
-    <context:comhumannt-scan base-package="properties" />
+    <context:component-scan base-package="properties" />
 
     <!-- 相当于 PropertySource 注解，使 Spring 增加映射功能 -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -311,7 +312,7 @@ XML 配置文件
     
     
         //该包下的配置文件直接与类的成员变量关联
-        @Bean
+        @Bean	   //属性资源布置控制器配置者
         public PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer(){
             return new PropertySourcesPlaceholderConfigurer();
         }

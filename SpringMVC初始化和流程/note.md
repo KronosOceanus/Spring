@@ -96,7 +96,25 @@
         HandlerExecutionChain 内容
 3. 视图渲染：在 MyController 的方法中将 index 视图返回 DispatcherServlet，视图解析器寻找对应
     视图文件，作为视图
-    
+## 初始化总过程
+
+1. 解析<context-param>里的键值对。
+2. 创建一个application内置对象即ServletContext，servlet上下文，用于全局共享。
+3. 将<context-param>的键值对放入ServletContext即application中，Web应用内全局共享。
+4. 读取<listener>标签创建监听器，一般会使用ContextLoaderListener类，如果使用了
+   ContextLoaderListener类，Spring就会创建一个WebApplicationContext类的对象，
+       WebApplicationContext类就是IoC容器，ContextLoaderListener类创建的IoC容器
+       是根IoC容器为全局性的，并将其放置在appication中，作为应用内全局共享，
+       键名为WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE，
+   这个全局的根IoC容器只能获取到在该容器中创建的Bean不能访问到其他容器创建的Bean，
+   也就是读取web.xml配置的contextConfigLocation参数的xml文件来创建对应的Bean。
+5. listener创建完成后如果有<filter>则会去创建filter。
+6. 初始化创建<servlet>，一般使用DispatchServlet类。
+7. DispatchServlet的父类FrameworkServlet会重写其父类的initServletBean方法，并调用initWebApplicationContext()以及onRefresh()方法。
+8. initWebApplicationContext()方法会创建一个当前servlet的一个IoC子容器，如果存在上述的全局WebApplicationContext则将其设置为父容器，如果不存在上述全局的则父容器为null。
+9. 读取<servlet>标签的<init-param>配置的xml文件并加载相关Bean。
+10. onRefresh()方法创建Web应用相关组件
+
 ## 初始化 Spring IoC 上下文
 通过 ServletContextListener 接口（ContextLoaderListener 实现类）完成初始化和销毁 Spring IoC 容器
 #### ContextLoaderListener 源码
@@ -379,3 +397,57 @@ Servlet 3.0 之后允许动态加载 Servlet，要求实现 ServletContainerInit
 * AbstractAnnotationConfigDispatcherServletInitializer 依次父类：
     AbstractDispatcherServletInitializer，AbstarctContextLoaderInitializer，
         WebApplicationInitializer，所以 MyWebAppInitializer 会被当做初始化器
+        
+## 配置 @RequestMapping
+#### @RequestMapping 源码
+```java
+    @Target({ElementType.METHOD, ElementType.TYPE})
+    @Retention(RetentionPolicy.RUNTIME)
+    @Documented
+    @Mapping
+    public @interface RequestMapping {
+        //请求路径
+        String name() default "";
+        //请求路径，可以是数组
+        @AliasFor("path")
+        String[] value() default {};
+        //请求路径，数组
+        @AliasFor("value")
+        String[] path() default {};
+        //请求类型（get / post）
+        RequestMethod[] method() default {};
+        //请求参数，有则匹配处理器
+        String[] params() default {};
+        //请求头，http 请求匹配处理器
+        String[] headers() default {};
+        //请求类型为配置类型时匹配处理器
+        String[] consumes() default {};
+        //处理器之后响应给用户的结果类型（如 "application/json"）
+        String[] produces() default {};
+    }
+```
+## 获取参数
+在控制器方法使用如下注解：
+* @RequestParam("id")：获取名为 id 的参数，还可以配置如下两个项
+    required：不允许为空（默认）。defaultValue：默认值
+* @SessionAttribute("id")：在 session 中获取参数
+
+## Json 视图
+导入包：
+* jackson-core
+* jackson-databind
+* jackson-annotations1
+
+使用
+```java
+    @RequestMapping("/getRoleToJson")
+    public ModelAndView getRoleToJson(@RequestParam("id") int id){
+        Role role = roleService.getRole(id);
+        ModelAndView mv = new ModelAndView();
+        //添加对象到视图
+        mv.addObject(role);
+        //设置视图类型！使用 Json 视图
+        mv.setView(new MappingJackson2JsonView());
+        return mv;
+    }
+```

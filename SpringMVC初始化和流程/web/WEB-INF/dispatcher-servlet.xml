@@ -13,11 +13,8 @@
     <context:component-scan base-package="controller" />
 
     <!-- 定义视图解析器 -->
-    <!-- 找到 Web 工程 /WEB-INF/JSP 文件夹，且文件结尾为 .jsp 的文件作为映射 -->
+    <!-- 找到 Web 工程 /WEB-INF/jsp 文件夹，且文件结尾为 .jsp 的文件作为映射 -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
 
-    <!--
-        如果需要开启数据库事务，需要开启这段代码
-        <tx:annotation-driven transaction-manager="transactionManager" /> -->
 </beans>

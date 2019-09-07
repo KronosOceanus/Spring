@@ -35,7 +35,7 @@
     </bean>
 
     <!-- 配置 Mapper 扫描器 -->
-    <bean id="roleMapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="mappers" />
         <!-- 二选一 -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
