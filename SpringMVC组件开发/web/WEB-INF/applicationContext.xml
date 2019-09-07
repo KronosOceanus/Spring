@@ -37,4 +37,7 @@
         <!-- 指定要扫描的注解 -->
         <property name="annotationClass" value="org.springframework.stereotype.Repository" />
     </bean>
+
+        <!-- id 不能变 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver" />
 </beans>

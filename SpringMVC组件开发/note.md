@@ -497,3 +497,68 @@ public class ExcelView extends AbstractXlsView {
 ```
 
 ## 上传文件
+需要 Multipart 请求解析器 MultipartResolver，实现类 org.springframework.web.
+    multipart.support.StandardServletMultipartResolver
+#### 实例
+* 配置 MultipartResolver，**注意！：id 是 Spring 默认，不能改变**
+```xml
+    <!-- id 不能变 -->
+    <bean id="multipartResolver" 
+        class="org.springframework.web.multipart.support.StandardServletMultipartResolver" />
+```
+* web.xml 配置解析器
+```xml
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+
+        <!-- 配置上传文件解析器 -->
+        <multipart-config>
+            <!-- 上传路径 -->
+            <location>d:/project/Spring/SpringMVC组件开发</location>
+            <!-- 单个文件大小 -->
+            <max-file-size>5242880</max-file-size>
+            <!-- 总文件大小 -->
+            <max-request-size>10485760</max-request-size>
+            <file-size-threshold>0</file-size-threshold>
+        </multipart-config>
+    </servlet>
+```
+* 上传文件表单
+```html
+    <!--                                                注意！：请求种类 -->
+    <form method="post" action="../file/upload.form" enctype="multipart/form-data">
+        <input type="file" name="file" value="请选择上传文件" />
+        <input type="submit" value="提交" />
+    </form>
+```
+* 控制器
+```java
+    @RequestMapping("/upload")
+    public ModelAndView upload(MultipartFile file){
+        ModelAndView mv = new ModelAndView();
+        mv.setView(new MappingJackson2JsonView());
+        //获取原始文件名
+        String fileName = file.getOriginalFilename();
+        file.getContentType();
+        //客户端目标文件
+        File dest = new File(fileName);
+        try{
+            file.transferTo(dest);
+            mv.addObject("success", true);
+            mv.addObject("msg", "上传文件成功！");
+        } catch (IOException e) {
+            mv.addObject("success", false);
+            mv.addObject("msg", "上传文件失败！");
+            e.printStackTrace();
+        }
+        return mv;
+    }
+```
+##### 执行过程
+* 判断是否为 multipart 请求
+* 如果是并且存在 id 为 multipartResolver 的 bean，就将 HttpServletRequest
+    转换为 MultipartHttpServletRequest，该接口扩展了 MultipartHttpRequest 和关于文件操作的 
+        MultipartRequst 接口
+* 最后 DispatcherServlet 释放资源，把文件请求转换为 MultipartFile 对象

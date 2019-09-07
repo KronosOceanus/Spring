@@ -30,4 +30,5 @@
             <bean class="interceptor.RoleInterceptor2" />
         </mvc:interceptor>
     </mvc:interceptors>
+
 </beans>
