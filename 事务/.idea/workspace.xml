@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfe5081-5105-424c-afbe-f88bf6c0f236" name="Default Changelist" comment="" />
+    <list default="true" id="8dfe5081-5105-424c-afbe-f88bf6c0f236" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/converter/StringToRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/RoleParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ExcelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ParamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ParamsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/PageParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/entity/PageParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/RoleParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/entity/RoleParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="390" column="17" lean-forward="true" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
+              <first_editor relative-caret-position="400">
+                <caret line="212" column="3" lean-forward="true" selection-start-line="212" selection-start-column="3" selection-end-line="212" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -175,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,15 +224,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565519294887" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSE/DBCP连接池" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -280,6 +307,8 @@
       <workItem from="1565512047648" duration="6863000" />
       <workItem from="1565594692284" duration="36000" />
       <workItem from="1565681749107" duration="855000" />
+      <workItem from="1568530195398" duration="4000" />
+      <workItem from="1568535992400" duration="20000" />
     </task>
     <servers />
   </component>
@@ -316,13 +345,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40649000" />
+    <option name="totallyTimeSpent" value="40673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="32" width="1400" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27719823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28614008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,8 +593,8 @@
     <entry file="file://$PROJECT_DIR$/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="390" column="17" lean-forward="true" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
+          <first_editor relative-caret-position="400">
+            <caret line="212" column="3" lean-forward="true" selection-start-line="212" selection-start-column="3" selection-end-line="212" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>

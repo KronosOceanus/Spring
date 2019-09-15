@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="mappers.RoleMapper">
+    <select id="getRole" parameterType="int" resultType="role">
+        select id, role_name as roleName, note from t_role where id = #{id}
+    </select>
+
+    <select id="findRoles" parameterType="entity.RoleParams" resultType="role">
+        select id, role_name as roleName, note from t_role
+        limit #{pageParams.start},#{pageParams.limit}
+    </select>
+
+    <delete id="deleteRoles" parameterType="list">
+        delete from t_role where id in
+        <!-- 集合类型（list/array） -->
+        <foreach collection="list" index="index" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <insert id="insertRoles" parameterType="list">
+        insert into t_role(role_name, note) values
+        <foreach collection="list" index="index" item="role" separator=",">
+            (#{role.roleName}, #{role.note})
+        </foreach>
+    </insert>
+
+    <insert id="insertRole" parameterType="role"
+        keyProperty="id" useGeneratedKeys="true">
+        insert into t_role(role_name, note) values(#{roleName}, #{note})
+    </insert>
+
+    <update id="updateRole" parameterType="role" >
+        update t_role set role_name = #{roleName}, note = #{note} where id = #{id}
+    </update>
+
+
+</mapper>

@@ -2,7 +2,7 @@ package mappers;
 
 import entity.Role;
 import org.springframework.stereotype.Repository;
-import pojo.RoleParams;
+import entity.RoleParams;
 
 import java.util.List;
 

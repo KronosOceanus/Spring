@@ -1,4 +1,6 @@
-package pojo;
+package entity;
+
+import entity.PageParams;
 
 public class RoleParams {
 

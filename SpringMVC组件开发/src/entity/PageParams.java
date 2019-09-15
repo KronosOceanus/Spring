@@ -1,4 +1,4 @@
-package pojo;
+package entity;
 
 public class PageParams {
 
