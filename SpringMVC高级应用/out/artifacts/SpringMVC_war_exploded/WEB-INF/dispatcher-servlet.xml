@@ -6,8 +6,8 @@
 
                                     <!-- 生成接口（转换服务类）-->
     <mvc:annotation-driven conversion-service="conversionService" />
-
-    <context:component-scan base-package="controller" />
+    <!--                                   扫描控制器和通知 -->
+    <context:component-scan base-package="controller, advice" />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
@@ -25,4 +25,16 @@
         </property>
     </bean>
 
+    
+    
+    <!-- 国际化拦截器 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+                <!-- 配置国际化参数名称 -->
+                <property name="paramName" value="language" />
+            </bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

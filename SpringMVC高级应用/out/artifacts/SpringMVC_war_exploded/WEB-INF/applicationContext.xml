@@ -23,6 +23,40 @@
 
 
 
+    <!-- 国际化文件加载器（两种实现类） -->
+    <!-- 默认id，不可更改 -->
+    <!--
+        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+            <property name="defaultEncoding" value="UTF-8" />
+            <property name="basename" value="msg" />
+        </bean>
+    -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="defaultEncoding" value="UTF-8" />
+        <!-- 国际化文件前缀 -->
+        <property name="basename" value="classpath:msg" />
+        <!-- 探测时间 -->
+        <property name="cacheSeconds" value="3600" />
+    </bean>
+    <!--
+        cookie 国际化解析器
+        <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+            <property name="cookieName" value="lang" />
+            <property name="cookieMaxAge" value="20" />
+            <property name="defaultLocale" value="zh_CN" />
+        </bean>
+    -->
+    <!-- session 国际化解析器 -->
+    <!-- 默认名称，不可更改 -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <property name="defaultLocale" value="zh_CN" />
+    </bean>
+
+
+
+
+
+
 
     <!-- 数据库配置 -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
