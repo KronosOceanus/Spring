@@ -2,51 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7006cdc2-dbf9-48a9-896d-e7cc52b21f0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/libraries/spring_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/node.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/LuaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/test.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/overtime/OvertimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RedisMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/transaction/TransactionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis配置/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis配置/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis配置/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/RootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/jedis/JavaRedisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/springJedis/SpringRedisTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/springJedis/SpringRedisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/src/jedis/JavaRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/src/jedis/StringRedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Redis概述/src/springJedis/SpringRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/RoleRedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redis_service/RedisTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redis_service/RedisTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/config/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/config/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/service/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/service/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/test/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring缓存与Redis结合/test/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test02.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,12 +23,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="175">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="350">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -78,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -87,25 +54,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="200">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="184">
+              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +75,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/RoleService.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="208">
+                <caret line="345" column="20" selection-start-line="345" selection-start-column="20" selection-end-line="345" selection-end-column="20" />
+                <folding>
+                  <element signature="e#303#304#0" expanded="true" />
+                  <element signature="e#390#391#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pojo/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -123,42 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding>
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -183,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/mappers/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/pojo/Role.java" />
-        <option value="$PROJECT_DIR$/src/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/Test01.java" />
         <option value="$PROJECT_DIR$/src/test/Test02.java" />
@@ -192,7 +152,13 @@
         <option value="$PROJECT_DIR$/src/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/mappers/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/test/Test01.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/Main.java" />
         <option value="$PROJECT_DIR$/src/service/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/redis_service/RedisTemplateService.java" />
+        <option value="$PROJECT_DIR$/src/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/redis_service/RedisTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/note.md" />
       </list>
     </option>
   </component>
@@ -210,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,6 +212,12 @@
               <item name="Spring缓存与Redis结合" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring缓存与Redis结合" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redis_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring缓存与Redis结合" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring缓存与Redis结合" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,14 +234,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570264660312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570340305283" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Redis配置" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test01.test01">
-    <configuration name="Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring缓存与Redis结合" />
       <extension name="coverage">
         <pattern>
@@ -302,13 +274,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Test01" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring缓存与Redis结合" />
       <extension name="coverage">
         <pattern>
@@ -317,14 +289,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Test01" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring缓存与Redis结合" />
       <extension name="coverage">
         <pattern>
@@ -333,8 +305,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Test01" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring缓存与Redis结合" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,10 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test01.test01" />
-        <item itemvalue="JUnit.Test01.test02" />
+        <item itemvalue="JUnit.Main.test01" />
+        <item itemvalue="JUnit.Main.test03" />
+        <item itemvalue="JUnit.Main.test02" />
         <item itemvalue="JUnit.Test02.test" />
-        <item itemvalue="JUnit.Test01" />
+        <item itemvalue="JUnit.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -376,79 +365,80 @@
       <option name="presentableId" value="Default" />
       <updated>1570254920636</updated>
       <workItem from="1570254922053" duration="9544000" />
+      <workItem from="1570336281463" duration="4037000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main - 2019.10.05 at 15h 06m 50s.xml">
-      <configuration name="Main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test02_test - 2019.10.05 at 15h 43m 00s.xml">
-      <configuration name="Test02.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test02_test - 2019.10.05 at 15h 44m 04s.xml">
-      <configuration name="Test02.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_test02 - 2019.10.05 at 16h 24m 40s.xml">
-      <configuration name="Test01.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_test02 - 2019.10.05 at 16h 26m 16s.xml">
-      <configuration name="Test01.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_test02 - 2019.10.05 at 16h 27m 06s.xml">
-      <configuration name="Test01.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_test02 - 2019.10.05 at 16h 31m 00s.xml">
-      <configuration name="Test01.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test01_test02 - 2019.10.05 at 16h 31m 15s.xml">
-      <configuration name="Test01.test02" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test01_test01 - 2019.10.05 at 16h 34m 34s.xml">
       <configuration name="Test01.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test01_test01 - 2019.10.05 at 16h 37m 44s.xml">
       <configuration name="Test01.test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 39m 49s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 40m 15s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 40m 16s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 41m 11s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 42m 02s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_test03 - 2019.10.06 at 12h 43m 09s.xml">
+      <configuration name="Test01.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_test03 - 2019.10.06 at 13h 38m 10s.xml">
+      <configuration name="Main.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_test01 - 2019.10.06 at 13h 38m 29s.xml">
+      <configuration name="Main.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9544000" />
+    <option name="totallyTimeSpent" value="13581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3101983" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1500">
           <caret line="237" column="42" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -490,89 +473,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/Test02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="350">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/RootConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/redis_service/RedisTemplateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="175">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/redis_service/RedisTemplateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="284">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="150">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="184">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="208">
+            <caret line="345" column="20" selection-start-line="345" selection-start-column="20" selection-end-line="345" selection-end-column="20" />
+            <folding>
+              <element signature="e#303#304#0" expanded="true" />
+              <element signature="e#390#391#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>

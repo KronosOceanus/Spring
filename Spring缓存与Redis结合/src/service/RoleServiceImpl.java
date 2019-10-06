@@ -3,6 +3,7 @@ package service;
 import mappers.RoleMapper;
 import org.hamcrest.core.Is;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -28,8 +29,11 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
+                                                                        //方法执行前删除缓存
+    @CacheEvict(value = "redisCacheManager", key = "'redis_role_'+#id", beforeInvocation = true)
     public int deleteRole(Integer id) {
-        return 0;
+        return roleMapper.deleteRole(id);
     }
 
 
@@ -50,7 +54,9 @@ public class RoleServiceImpl implements RoleService {
         return role;
     }
 
+    //不使用缓存，因为命中率不高，查询条件导致的返回结果多样
     @Override
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
     public List<Role> findRoles(String roleName, String note) {
         return null;
     }

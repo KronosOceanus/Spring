@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration  //配置类
-@ComponentScan(basePackages = {"mappers", "pojo", "service"}) //context:component-scan
+@ComponentScan(basePackages = {"mappers", "pojo", "service", "redis_service"}) //context:component-scan
 @EnableTransactionManagement    //相当于 tx:annotation-driven
 public class RootConfig implements TransactionManagementConfigurer { //该接口相当于 mvc:annotation-driven
 
