@@ -2,31 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6801bfcb-04d8-4a0e-a658-17edf49283e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImplManual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml2/full-automatic-xml2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/node.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/LuaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/test.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/overtime/OvertimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/transaction/TransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis配置/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis配置/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis配置/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/config/RootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/mappers/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/mappers/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring缓存与Redis结合/src/service/RoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mybatis入门/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mybatis入门/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/entity/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/out/production/事务/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/entity/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/FullAutomaticAnnoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_anno/full-automatic-anno.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/full_automatic_xml/full-automatic-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/manual/manual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/manual/manual.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/src/semi_automatic/semi-automatic.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/事务.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/事务.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/JingDongObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/ProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/out/production/设计模式/observer/TaoBaoObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/jedis/JavaRedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/springJedis/SpringRedisTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/out/production/Redis概述/springJedis/SpringRedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/src/jedis/JavaRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/src/jedis/StringRedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/src/springJedis/SpringRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/RoleRedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="400">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -78,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -96,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="method#createSqlSessionFactoryByXml#0;class#Test#0" />
                 <element signature="method#createSqlSessionFactoryByCode#0;class#Test#0" />
@@ -227,8 +241,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,17 +307,17 @@
       <workItem from="1564307024348" duration="713000" />
       <workItem from="1564385765063" duration="18000" />
       <workItem from="1565519931467" duration="313000" />
+      <workItem from="1570255757549" duration="1726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16395000" />
+    <option name="totallyTimeSpent" value="18121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17402945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17603749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mybatis入门.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -447,6 +454,17 @@
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
+            <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
           </folding>
         </state>
       </provider>
@@ -468,34 +486,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="method#getSqlSessionFactory#0;class#SqlSessionFactoryUtils#0" />
-            <element signature="method#openSqlSession#0;class#SqlSessionFactoryUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="method#createSqlSessionFactoryByXml#0;class#Test#0" />
             <element signature="method#createSqlSessionFactoryByCode#0;class#Test#0" />
             <element signature="method#test01#0;class#Test#0" />
             <element signature="method#test02#0;class#Test#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>

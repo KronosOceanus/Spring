@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.SessionCallback;
 
-public class SpringRedisTest {
+public class RoleRedisTest {
 
     //不同连接执行操作
     private void test01(){
@@ -43,7 +43,7 @@ public class SpringRedisTest {
 
 
     public static void main(String[] args) {
-        SpringRedisTest srt = new SpringRedisTest();
+        RoleRedisTest srt = new RoleRedisTest();
         srt.test02();
 
     }

@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34b2671-d417-49a2-bbb4-4d0caf81858a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/PageParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/RoleParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/mappers/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ExcelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ParamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/controller/ParamsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/PageParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/entity/PageParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/src/pojo/RoleParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/src/entity/RoleParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../事务/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/transaction/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,9 +183,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1553" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1554" />
     <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -205,7 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +213,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,16 +292,17 @@
       <workItem from="1564992313910" duration="3835000" />
       <workItem from="1565056738741" duration="43000" />
       <workItem from="1568530210772" duration="17000" />
+      <workItem from="1569591124591" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22155000" />
+    <option name="totallyTimeSpent" value="22163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1242" height="672" extended-state="0" />
+    <frame x="-6" y="-6" width="1243" height="672" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15962838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16202532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

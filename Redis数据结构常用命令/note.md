@@ -218,3 +218,184 @@
         printList(redisTemplate, "list1");
         printList(redisTemplate, "list2");
 ```
+
+## Set
+#### 代码/命令
+```java
+    ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        RedisTemplate redisTemplate = applicationContext.getBean(RedisTemplate.class);
+
+        Set set = null;
+        // sadd key member1 [member2]
+        redisTemplate.boundSetOps("set1").add("v1","v2","v3","v4","v5","v6");
+        redisTemplate.boundSetOps("set2").add("v0","v2","v4","v8");
+        // scard key
+        redisTemplate.opsForSet().size("set1");
+        // sdiff / sinter key1 key2，差集
+        set = redisTemplate.opsForSet().difference("set1", "set2");
+        set = redisTemplate.opsForSet().intersect("set1", "set2");
+        // sismember key member，交集
+        boolean exists = redisTemplate.opsForSet().isMember("set1","v1");
+        // smembers key，返回所有 member
+        set = redisTemplate.opsForSet().members("set1");
+        // spop key，随机弹出
+        String val = (String)redisTemplate.opsForSet().pop("set1");
+        // srandmember key，随机获取
+        val = (String)redisTemplate.opsForSet().randomMember("set1");
+        // srandmember key count，随机获取 count 个
+        List list = redisTemplate.opsForSet().randomMembers("set1", 2L);
+        // srem key member1 [member2]
+        redisTemplate.opsForSet().remove("set1", "v1");
+        // sunion key1 key2，并集
+        redisTemplate.opsForSet().union("set1", "set2");
+        // sdiffstore / interstore / unionstore des key1 key2，差/交/并集，并存放在 des 中
+        redisTemplate.opsForSet().differenceAndStore("set1", "set2", "diff_set");
+        redisTemplate.opsForSet().intersectAndStore("set1", "set2", "inter_set");
+        redisTemplate.opsForSet().unionAndStore("set1", "set2", "union_set");
+
+        printSet(set);
+```
+#### 辅助操作
+```java
+    //打印 set 集合
+    public void printSet(Set set){
+        if (set != null && set.isEmpty()){
+            return;
+        }
+        for (Object val : set){
+            System.err.print(val + "\t");
+        }
+        System.err.println();
+    }
+```
+
+## Zset
+Spring 封装了三个内部类
+* TypedTuple 接口：默认实现类 DefaultTypedTuple，构造时传入 value，score
+* Range 接口：代表 score 的范围
+* Limit 接口：代表返回值的条数，包含 offset 和 count 两个成员变量
+#### 代码/命令
+```java
+    ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        RedisTemplate redisTemplate = applicationContext.getBean(RedisTemplate.class);
+
+        Set<ZSetOperations.TypedTuple> set1 = new HashSet<>();
+        Set<ZSetOperations.TypedTuple> set2 = new HashSet<>();
+
+        //初始化
+        int j=9;
+        for (int i=1;i<=9;i++){
+            j--;
+
+            Double score1 = (double) i;
+            String value1 = "x" + i;
+            Double score2 = (double) j;
+            String value2 = j%2 == 0 ? "y" + j : "x" + j;
+            ZSetOperations.TypedTuple typedTuple1 = new DefaultTypedTuple(value1, score1);
+            set1.add(typedTuple1);
+            ZSetOperations.TypedTuple typedTuple2 = new DefaultTypedTuple(value2, score2);
+            set2.add(typedTuple2);
+        }
+        // zadd key value + score
+        redisTemplate.opsForZSet().add("zset1", set1);
+        redisTemplate.opsForZSet().add("zset2", set2);
+        // zcard key
+        Long size = redisTemplate.opsForZSet().size("zset1");
+        System.err.println("size = " + size);
+        // zcount key min max，统计 key 中 score >= min && <= max 的 member 个数
+        Long count = redisTemplate.opsForZSet().count("zset1", 3, 6);
+        System.err.println("count = " + count);
+
+        Set set = null;
+        // zrange key start stop，根据分值范围取子集
+        set = redisTemplate.opsForZSet().range("zset1", 1, 5);
+        printSet(set);
+        //获取集合所有元素（value + score），并按照分数排序（-1 代表所有几何）
+        set = redisTemplate.opsForZSet().rangeWithScores("zset1", 0, -1);
+        printTypedTuple(set);
+        // zinterstore des key1 key2，求交集并放入 des 中
+        size = redisTemplate.opsForZSet().intersectAndStore("zset1", "zset2", "inter_zset");
+        System.err.println(size);
+
+        //区间
+        RedisZSetCommands.Range range = RedisZSetCommands.Range.range();
+        range.lt("x8");
+        range.gt("x1");
+        // zrangebylex key min + max，获取范围之内的元素 value
+        set = redisTemplate.opsForZSet().rangeByLex("zset1", range);
+        printSet(set);
+
+        range.lte("x8");
+        range.gte("x1");
+        set = redisTemplate.opsForZSet().rangeByLex("zset1", range);
+        printSet(set);
+
+        RedisZSetCommands.Limit limit = RedisZSetCommands.Limit.limit();
+        limit.offset(5);
+        limit.count(4);
+        // 从 offset + 1 个开始，取 count 个 member 的 value
+        // zrangebylex key min + max limit offset + count
+        set = redisTemplate.opsForZSet().rangeByLex("zset1", range, limit);
+        printSet(set);
+        // zrank key member，计算 member 的排行
+        Long rank = redisTemplate.opsForZSet().rank("zset1", "x4");
+        System.err.println("rank = " + rank);
+        //删除目标 member，返回删除数
+        size = redisTemplate.opsForZSet().remove("zset1", "x5", "x6");
+        System.err.println("delete = " + size);
+        // zremrangebyrank key start stop，删除排名为 [start + 1 ,stop + 1] 的 member
+        size = redisTemplate.opsForZSet().removeRange("zset2", 0, 3);
+        System.err.println(size);
+        //获取所有元素
+        set = redisTemplate.opsForZSet().rangeWithScores("zset2", 0, -1);
+        printTypedTuple(set);
+
+        size = redisTemplate.opsForZSet().remove("zset2","y6", "y3");
+        System.err.println(size);
+        // zincrby key member increment，给 member 的 score 加上 increment，返回计算后的 score
+        Double db1 = redisTemplate.opsForZSet().incrementScore("zset1", "x1", 11);
+        System.err.println(db1);
+
+        redisTemplate.opsForZSet().removeRangeByScore("zset1", 1, 2);
+        //由大到小获取所有元素
+        // zrevrangebyscore key max min withscores
+        set = redisTemplate.opsForZSet().reverseRangeWithScores("zset2", 1, 10);
+        printTypedTuple(set);
+```
+#### 辅助操作
+```java
+    //打印 TypedTuple 集合
+    public void printTypedTuple(Set<ZSetOperations.TypedTuple> set){
+        if (set != null && set.isEmpty()){
+            return;
+        }
+        for (ZSetOperations.TypedTuple val : set) {
+            System.err.println("{ value = " + val.getValue() + ", score = " + val.getScore() + " }");
+        }
+    }
+```
+
+## HyperLogLog
+给有重复元素的数据集合评估所需要的空间单元数，可以看做无重复元素的集合（但本身并不存储东西）
+#### 代码/命令
+```java
+    ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        RedisTemplate redisTemplate = applicationContext.getBean(RedisTemplate.class);
+        // pfadd key element，未添加返回 1，否则返回 0
+        redisTemplate.opsForHyperLogLog().add("HyperLogLog","a","b","c","d","a");
+        redisTemplate.opsForHyperLogLog().add("HyperLogLog2","a");
+        redisTemplate.opsForHyperLogLog().add("HyperLogLog2", "z");
+        // pfcount key
+        Long size = redisTemplate.opsForHyperLogLog().size("HyperLogLog");
+        System.err.println(size);
+
+        size = redisTemplate.opsForHyperLogLog().size("HyperLogLog2");
+        System.err.println(size);
+        // pfmerge des key1 key2...
+        redisTemplate.opsForHyperLogLog().union("des_key", "HyperLogLog", "HyperLogLog2");
+        size = redisTemplate.opsForHyperLogLog().size("des_key");
+        System.err.println(size);
+```

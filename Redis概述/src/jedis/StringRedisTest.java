@@ -2,7 +2,7 @@ package jedis;
 
 import redis.clients.jedis.Jedis;
 
-public class JavaRedisTest {
+public class StringRedisTest {
 
     //性能测试（缺点，只能提供字符串操作）
     public static void main(String[] args) {

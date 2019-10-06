@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="spring-jar">
+    <CLASSES>
+      <root url="file://D:/Software/spring-jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3-mybatis-3.5.2/.mvn/wrapper" />
+      <root url="file://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3-mybatis-3.5.2/src/main/java" />
+      <root url="file://D:/Software/spring-jar/mybatis-3.5.2/mybatis-3-mybatis-3.5.2/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Software/spring-jar" recursive="false" />
+  </library>
+</component>

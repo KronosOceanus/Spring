@@ -2,75 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f1eca22-3736-4233-8e9c-427d6b0058ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/libraries/spring_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/Redis概述.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/jedis/JavaRedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/SpringRedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/advice/CommonControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/FormatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/MyAdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/RoleAdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/FormatPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/exception/RoleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/msg_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/msg_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/jsp/exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/jsp/msgpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/ExcelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/ExcelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/ParamsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/ParamsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/mappers/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/mappers/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/mappers/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/mappers/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/pojo/PageParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/pojo/RoleParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/AttributeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/ExcelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/ParamsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/controller/ValidateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/excel/ExcelExportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/excel/ExcelView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/interceptor/RoleInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/interceptor/RoleInterceptor1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/interceptor/RoleInterceptor2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/mappers/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/mappers/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/mappers/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/pojo/PageParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/pojo/RoleParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/validator/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/out/production/SpringMVC组件开发/validator/TransactionValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/converter/StringToRoleConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/entity/PageParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/entity/RoleParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/production/SpringMVC高级应用/mappers/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/node.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/LuaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/lua/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/release_subscription/RedisMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/transaction/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Redis数据结构常用命令/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Redis数据结构常用命令/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,29 +31,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+              <first_editor relative-caret-position="9500">
+                <caret line="380" column="8" selection-start-line="380" selection-start-column="8" selection-end-line="380" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="172" column="18" lean-forward="true" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
               <folding>
                 <element signature="method#test01#0;class#Test#0" />
                 <element signature="method#test02#0;class#Test#0" />
+                <element signature="method#test03#0;class#Test#0" />
+                <element signature="method#test04#0;class#Test#0" />
+                <element signature="method#test05#0;class#Test#0" />
+                <element signature="method#test06#0;class#Test#0" />
+                <element signature="method#test07#0;class#Test#0" />
                 <element signature="method#printCurrValue#0;class#Test#0" />
                 <element signature="method#printValueForHash#0;class#Test#0" />
                 <element signature="method#printList#0;class#Test#0" />
+                <element signature="method#printTypedTuple#0;class#Test#0" />
+                <element signature="method#printSet#0;class#Test#0" />
               </folding>
             </state>
           </provider>
@@ -159,7 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,14 +133,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569158686340" />
-    <property name="last_opened_file_path" value="D:/Software/spring-jar" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569288005121" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -228,17 +185,23 @@
       <updated>1569109165996</updated>
       <workItem from="1569109167566" duration="8339000" />
       <workItem from="1569157410253" duration="1284000" />
+      <workItem from="1569203847204" duration="682000" />
+      <workItem from="1569282789582" duration="5211000" />
+      <workItem from="1569328387405" duration="35000" />
+      <workItem from="1569576280568" duration="651000" />
+      <workItem from="1569577214334" duration="6000" />
+      <workItem from="1569894353203" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9623000" />
+    <option name="totallyTimeSpent" value="16212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -247,7 +210,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45609066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,6 +238,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="9500">
+            <caret line="380" column="8" selection-start-line="380" selection-start-column="8" selection-end-line="380" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Redis数据结构常用命令.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -282,30 +258,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Redis数据结构常用命令.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="172" column="18" lean-forward="true" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
           <folding>
             <element signature="method#test01#0;class#Test#0" />
             <element signature="method#test02#0;class#Test#0" />
+            <element signature="method#test03#0;class#Test#0" />
+            <element signature="method#test04#0;class#Test#0" />
+            <element signature="method#test05#0;class#Test#0" />
+            <element signature="method#test06#0;class#Test#0" />
+            <element signature="method#test07#0;class#Test#0" />
             <element signature="method#printCurrValue#0;class#Test#0" />
             <element signature="method#printValueForHash#0;class#Test#0" />
             <element signature="method#printList#0;class#Test#0" />
+            <element signature="method#printTypedTuple#0;class#Test#0" />
+            <element signature="method#printSet#0;class#Test#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

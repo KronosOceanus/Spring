@@ -2,51 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d3b119-a1fc-4a01-abee-c292ab12f3f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/mappers/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/service/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web(s).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/jsp/roleDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBatis-Spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBatis-Spring/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MapperScannerConfigurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MapperScannerConfigurerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/mappers/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/SpringMVC初始化和流程.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/SpringMVC初始化和流程.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/config/MyWebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/config/MyWebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/config/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/config-src中的配置类/MyWebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/config-src中的配置类/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/libraries/spring_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis常用技术/src/transaction/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/out/production/Redis数据结构常用命令/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis数据结构常用命令/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis概述/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../高级Mapper/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,15 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -97,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/MapperScannerConfigurerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#650#651#0" expanded="true" />
                 <element signature="e#691#692#0" expanded="true" />
@@ -118,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/SqlSessionTemplateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -136,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mappers/BaseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -199,7 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +206,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,6 +345,7 @@
       <workItem from="1566034988544" duration="121000" />
       <workItem from="1566091972113" duration="1309000" />
       <workItem from="1566177906239" duration="211000" />
+      <workItem from="1569591142574" duration="152000" />
     </task>
     <servers />
   </component>
@@ -413,12 +382,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14064000" />
+    <option name="totallyTimeSpent" value="14216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28954422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -468,20 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mappers/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MapperFactoryBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -513,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SqlSessionTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -534,10 +482,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MapperFactoryBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MapperScannerConfigurerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
@@ -545,10 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/SqlSessionTemplateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="250">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
