@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c63e6188-7bee-42a0-9ef7-34c52cd179ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/mappers/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/mappers/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/service/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/jsp/roleDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatis-Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring+MyBatis组合事务/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/mappers/RoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleListServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring+MyBatis组合事务/out/production/Spring+MyBatis组合事务/service/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/config/MyWebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/config/MyWebAppInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/out/production/SpringMVC初始化和流程/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/config/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/config/MyWebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/src/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC初始化和流程/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../装配bean/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/../装配bean/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/SexEnum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/type_handler/StringTypeHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="322">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="25">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -183,9 +155,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
+    <option name="x" value="145" />
     <option name="y" value="10" />
-    <option name="width" value="1734" />
+    <option name="width" value="1735" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -216,8 +188,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,16 +263,18 @@
       <workItem from="1565579668290" duration="80000" />
       <workItem from="1565594215135" duration="63000" />
       <workItem from="1566003186985" duration="18000" />
+      <workItem from="1570977450861" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25503000" />
+    <option name="totallyTimeSpent" value="25521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2989276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30294907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2525">
-            <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -593,8 +557,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/type_handler/StringTypeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="322">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

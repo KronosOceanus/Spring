@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4273a88-2458-455a-a595-766b38935d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/libraries/spring_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/jedis/JavaRedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/src/springJedis/SpringRedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Redis概述/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/advice/CommonControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/FormatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/MyAdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/controller/RoleAdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/entity/FormatPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/exception/RoleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/msg_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/src/msg_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/jsp/exception.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/jsp/msgpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC组件开发/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/out/artifacts/SpringMVC_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC高级应用/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis入门/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis配置/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,10 +141,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="10" />
-    <option name="width" value="1735" />
-    <option name="height" value="1035" />
+    <option name="x" value="927" />
+    <option name="y" value="27" />
+    <option name="width" value="1750" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +183,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,17 +246,17 @@
       <workItem from="1566000030530" duration="892000" />
       <workItem from="1566002144596" duration="12000" />
       <workItem from="1569053198184" duration="13000" />
+      <workItem from="1571103759582" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7943000" />
+    <option name="totallyTimeSpent" value="7957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,6 +312,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -373,6 +357,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mappers/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -391,20 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
